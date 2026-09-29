@@ -1,0 +1,1486 @@
+{
+  "$schema": "pass-corpus-data.schema.json",
+  "schemaVersion": "1.0",
+  "description": "Synthetic intended-pass TTB application corpus",
+  "outputDirectory": "pass-cases",
+  "governmentWarning": {
+    "heading": "GOVERNMENT WARNING:",
+    "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.",
+    "headingAllCaps": true,
+    "headingBold": true,
+    "headingFontSizePixels": 31,
+    "bodyFontSizePixels": 31
+  },
+  "cases": [
+    {
+      "caseId": "PASS-WINE-01",
+      "categoryFolder": "wine",
+      "outputPdf": "sunward-ridge-application.pdf",
+      "metadata": {
+        "title": "Sunward Ridge synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11001",
+        "year": "26",
+        "serialNumber": "1001",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "SUNWARD RIDGE",
+        "fancifulName": "DAYBREAK",
+        "applicantNameAndAddress": "Sunward Ridge Cellars LLC\n101 Golden Vine Road\nSonoma, CA 95476",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Chardonnay",
+        "wineAppellation": "California",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "SUNWARD RIDGE",
+        "fancifulName": "DAYBREAK",
+        "classTypeDesignation": "CHARDONNAY",
+        "originLine": "CALIFORNIA",
+        "alcoholContent": "13.2% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Sunward Ridge Cellars LLC\n101 Golden Vine Road\nSonoma, CA 95476",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-WINE-02",
+      "categoryFolder": "wine",
+      "outputPdf": "copper-finch-application.pdf",
+      "metadata": {
+        "title": "Copper Finch synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11002",
+        "year": "26",
+        "serialNumber": "1002",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "COPPER FINCH",
+        "fancifulName": "ESTATE SELECTION",
+        "applicantNameAndAddress": "Copper Finch Winery LLC\n214 Harvest Lane\nNapa, CA 94558",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Cabernet Sauvignon",
+        "wineAppellation": "Napa Valley",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "COPPER FINCH",
+        "fancifulName": "ESTATE SELECTION",
+        "classTypeDesignation": "CABERNET SAUVIGNON",
+        "originLine": "NAPA VALLEY",
+        "alcoholContent": "14.1% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Copper Finch Winery LLC\n214 Harvest Lane\nNapa, CA 94558",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-WINE-03",
+      "categoryFolder": "wine",
+      "outputPdf": "harbor-pine-application.pdf",
+      "metadata": {
+        "title": "Harbor & Pine synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-OR-11003",
+        "year": "26",
+        "serialNumber": "1003",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "HARBOR & PINE",
+        "fancifulName": "COASTAL SERIES",
+        "applicantNameAndAddress": "Harbor and Pine Wines LLC\n330 Orchard Way\nMcMinnville, OR 97128",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Pinot Noir",
+        "wineAppellation": "Willamette Valley",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "HARBOR & PINE",
+        "fancifulName": "COASTAL SERIES",
+        "classTypeDesignation": "PINOT NOIR",
+        "originLine": "WILLAMETTE VALLEY",
+        "alcoholContent": "13.5% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Harbor and Pine Wines LLC\n330 Orchard Way\nMcMinnville, OR 97128",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-WINE-04",
+      "categoryFolder": "wine",
+      "outputPdf": "blue-ember-application.pdf",
+      "metadata": {
+        "title": "Blue Ember synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-WA-11004",
+        "year": "26",
+        "serialNumber": "1004",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "BLUE EMBER",
+        "fancifulName": "RIVERSTONE",
+        "applicantNameAndAddress": "Blue Ember Wine Company\n45 Basin View Drive\nWalla Walla, WA 99362",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Riesling",
+        "wineAppellation": "Columbia Valley",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "BLUE EMBER",
+        "fancifulName": "RIVERSTONE",
+        "classTypeDesignation": "RIESLING",
+        "originLine": "COLUMBIA VALLEY",
+        "alcoholContent": "12.0% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Blue Ember Wine Company\n45 Basin View Drive\nWalla Walla, WA 99362",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-WINE-05",
+      "categoryFolder": "wine",
+      "outputPdf": "morning-vale-application.pdf",
+      "metadata": {
+        "title": "Morning Vale synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11005",
+        "year": "26",
+        "serialNumber": "1005",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "MORNING VALE",
+        "fancifulName": "FIRST LIGHT",
+        "applicantNameAndAddress": "Morning Vale Cellars LLC\n782 Meadow Road\nHealdsburg, CA 95448",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Rosé",
+        "wineAppellation": "California",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "MORNING VALE",
+        "fancifulName": "FIRST LIGHT",
+        "classTypeDesignation": "ROSÉ",
+        "originLine": "CALIFORNIA",
+        "alcoholContent": "12.5% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Morning Vale Cellars LLC\n782 Meadow Road\nHealdsburg, CA 95448",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-WINE-06",
+      "categoryFolder": "wine",
+      "outputPdf": "juniper-gate-application.pdf",
+      "metadata": {
+        "title": "Juniper Gate synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11006",
+        "year": "26",
+        "serialNumber": "1006",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "JUNIPER GATE",
+        "fancifulName": "GARDEN BLOCK",
+        "applicantNameAndAddress": "Juniper Gate Winery LLC\n19 Green Gate Lane\nSonoma, CA 95476",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Sauvignon Blanc",
+        "wineAppellation": "California",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "JUNIPER GATE",
+        "fancifulName": "GARDEN BLOCK",
+        "classTypeDesignation": "SAUVIGNON BLANC",
+        "originLine": "CALIFORNIA",
+        "alcoholContent": "13.0% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Juniper Gate Winery LLC\n19 Green Gate Lane\nSonoma, CA 95476",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-WINE-07",
+      "categoryFolder": "wine",
+      "outputPdf": "red-kestrel-application.pdf",
+      "metadata": {
+        "title": "Red Kestrel synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-WA-11007",
+        "year": "26",
+        "serialNumber": "1007",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "RED KESTREL",
+        "fancifulName": "HIGH PLAIN",
+        "applicantNameAndAddress": "Red Kestrel Vintners LLC\n660 Plateau Avenue\nProsser, WA 99350",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Merlot",
+        "wineAppellation": "Columbia Valley",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "RED KESTREL",
+        "fancifulName": "HIGH PLAIN",
+        "classTypeDesignation": "MERLOT",
+        "originLine": "COLUMBIA VALLEY",
+        "alcoholContent": "13.8% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Red Kestrel Vintners LLC\n660 Plateau Avenue\nProsser, WA 99350",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-WINE-08",
+      "categoryFolder": "wine",
+      "outputPdf": "canyon-lantern-application.pdf",
+      "metadata": {
+        "title": "Canyon Lantern synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11008",
+        "year": "26",
+        "serialNumber": "1008",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "CANYON LANTERN",
+        "fancifulName": "OLD TRAIL",
+        "applicantNameAndAddress": "Canyon Lantern Wines LLC\n808 Lantern Road\nLodi, CA 95240",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Zinfandel",
+        "wineAppellation": "Lodi",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "CANYON LANTERN",
+        "fancifulName": "OLD TRAIL",
+        "classTypeDesignation": "ZINFANDEL",
+        "originLine": "LODI",
+        "alcoholContent": "14.5% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Canyon Lantern Wines LLC\n808 Lantern Road\nLodi, CA 95240",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-WINE-09",
+      "categoryFolder": "wine",
+      "outputPdf": "silver-thread-application.pdf",
+      "metadata": {
+        "title": "Silver Thread synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11009",
+        "year": "26",
+        "serialNumber": "1009",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "SILVER THREAD",
+        "fancifulName": "HILLSIDE",
+        "applicantNameAndAddress": "Silver Thread Cellars LLC\n125 Ridgecrest Way\nPaso Robles, CA 93446",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Syrah",
+        "wineAppellation": "Paso Robles",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "SILVER THREAD",
+        "fancifulName": "HILLSIDE",
+        "classTypeDesignation": "SYRAH",
+        "originLine": "PASO ROBLES",
+        "alcoholContent": "14.2% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Silver Thread Cellars LLC\n125 Ridgecrest Way\nPaso Robles, CA 93446",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-WINE-10",
+      "categoryFolder": "wine",
+      "outputPdf": "north-star-meadow-application.pdf",
+      "metadata": {
+        "title": "North Star Meadow synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11010",
+        "year": "26",
+        "serialNumber": "1010",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "NORTH STAR MEADOW",
+        "fancifulName": "BRUT",
+        "applicantNameAndAddress": "North Star Meadow Winery LLC\n904 Starling Lane\nMendocino, CA 95460",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Chardonnay, Pinot Noir",
+        "wineAppellation": "California",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "NORTH STAR MEADOW",
+        "fancifulName": "BRUT",
+        "classTypeDesignation": "SPARKLING WINE",
+        "originLine": "CALIFORNIA",
+        "alcoholContent": "11.8% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "North Star Meadow Winery LLC\n904 Starling Lane\nMendocino, CA 95460",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-DSP-01",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "iron-willow-application.pdf",
+      "metadata": {
+        "title": "Iron Willow synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-KY-21001",
+        "year": "26",
+        "serialNumber": "2001",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "IRON WILLOW",
+        "fancifulName": "SMALL BATCH",
+        "applicantNameAndAddress": "Iron Willow Distilling LLC\n12 Cooper Street\nFrankfort, KY 40601",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "IRON WILLOW",
+        "fancifulName": "SMALL BATCH",
+        "classTypeDesignation": "STRAIGHT BOURBON WHISKY",
+        "originLine": "AMERICAN",
+        "alcoholContent": "45% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Iron Willow Distilling LLC\n12 Cooper Street\nFrankfort, KY 40601",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-DSP-02",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "northline-application.pdf",
+      "metadata": {
+        "title": "Northline synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-CO-21002",
+        "year": "26",
+        "serialNumber": "2002",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "NORTHLINE",
+        "fancifulName": "NO. 7",
+        "applicantNameAndAddress": "Northline Spirits LLC\n70 Clear Spring Road\nDenver, CO 80205",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "NORTHLINE",
+        "fancifulName": "NO. 7",
+        "classTypeDesignation": "VODKA",
+        "originLine": "AMERICAN",
+        "alcoholContent": "40% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Northline Spirits LLC\n70 Clear Spring Road\nDenver, CO 80205",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-DSP-03",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "botanical-harbor-application.pdf",
+      "metadata": {
+        "title": "Botanical Harbor synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-ME-21003",
+        "year": "26",
+        "serialNumber": "2003",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "BOTANICAL HARBOR",
+        "fancifulName": "COASTAL DRY",
+        "applicantNameAndAddress": "Botanical Harbor Distillery LLC\n88 Juniper Wharf\nPortland, ME 04101",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "BOTANICAL HARBOR",
+        "fancifulName": "COASTAL DRY",
+        "classTypeDesignation": "GIN",
+        "originLine": "AMERICAN",
+        "alcoholContent": "43% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Botanical Harbor Distillery LLC\n88 Juniper Wharf\nPortland, ME 04101",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-DSP-04",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "copper-current-application.pdf",
+      "metadata": {
+        "title": "Copper Current synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-GA-21004",
+        "year": "26",
+        "serialNumber": "2004",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "COPPER CURRENT",
+        "fancifulName": "BARREL RESERVE",
+        "applicantNameAndAddress": "Copper Current Spirits LLC\n214 River Mill Road\nSavannah, GA 31401",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "COPPER CURRENT",
+        "fancifulName": "BARREL RESERVE",
+        "classTypeDesignation": "RUM",
+        "originLine": "AMERICAN",
+        "alcoholContent": "40% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Copper Current Spirits LLC\n214 River Mill Road\nSavannah, GA 31401",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-DSP-05",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "granite-rail-application.pdf",
+      "metadata": {
+        "title": "Granite Rail synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-KY-21005",
+        "year": "26",
+        "serialNumber": "2005",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "GRANITE RAIL",
+        "fancifulName": "BONDED SERIES",
+        "applicantNameAndAddress": "Granite Rail Distillers LLC\n501 Rickshed Avenue\nLouisville, KY 40202",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "GRANITE RAIL",
+        "fancifulName": "BONDED SERIES",
+        "classTypeDesignation": "STRAIGHT RYE WHISKY",
+        "originLine": "AMERICAN",
+        "alcoholContent": "50% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Granite Rail Distillers LLC\n501 Rickshed Avenue\nLouisville, KY 40202",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-DSP-06",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "orchard-bell-application.pdf",
+      "metadata": {
+        "title": "Orchard Bell synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-NY-21006",
+        "year": "26",
+        "serialNumber": "2006",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "ORCHARD BELL",
+        "fancifulName": "AUTUMN CASK",
+        "applicantNameAndAddress": "Orchard Bell Distillery LLC\n35 Cider Press Lane\nHudson, NY 12534",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "ORCHARD BELL",
+        "fancifulName": "AUTUMN CASK",
+        "classTypeDesignation": "APPLE BRANDY",
+        "originLine": "AMERICAN",
+        "alcoholContent": "40% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Orchard Bell Distillery LLC\n35 Cider Press Lane\nHudson, NY 12534",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-DSP-07",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "summer-peach-application.pdf",
+      "metadata": {
+        "title": "Summer Peach synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-GA-21007",
+        "year": "26",
+        "serialNumber": "2007",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "SUMMER PEACH",
+        "fancifulName": "RESERVE",
+        "applicantNameAndAddress": "Summer Peach Spirits LLC\n420 Grove Street\nMacon, GA 31201",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "SUMMER PEACH",
+        "fancifulName": "RESERVE",
+        "classTypeDesignation": "PEACH BRANDY",
+        "originLine": "AMERICAN",
+        "alcoholContent": "40% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Summer Peach Spirits LLC\n420 Grove Street\nMacon, GA 31201",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-DSP-08",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "timber-meridian-application.pdf",
+      "metadata": {
+        "title": "Timber Meridian synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-OR-21008",
+        "year": "26",
+        "serialNumber": "2008",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "TIMBER MERIDIAN",
+        "fancifulName": "PEAK RESERVE",
+        "applicantNameAndAddress": "Timber Meridian Distilling LLC\n77 Malt House Road\nBend, OR 97701",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "TIMBER MERIDIAN",
+        "fancifulName": "PEAK RESERVE",
+        "classTypeDesignation": "AMERICAN SINGLE MALT WHISKY",
+        "originLine": "AMERICAN",
+        "alcoholContent": "46% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Timber Meridian Distilling LLC\n77 Malt House Road\nBend, OR 97701",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-DSP-09",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "night-ledger-application.pdf",
+      "metadata": {
+        "title": "Night Ledger synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-IL-21009",
+        "year": "26",
+        "serialNumber": "2009",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "NIGHT LEDGER",
+        "fancifulName": "ROASTER'S CUT",
+        "applicantNameAndAddress": "Night Ledger Liqueurs LLC\n218 Market Alley\nChicago, IL 60607",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "NIGHT LEDGER",
+        "fancifulName": "ROASTER'S CUT",
+        "classTypeDesignation": "COFFEE LIQUEUR",
+        "originLine": "AMERICAN",
+        "alcoholContent": "30% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Night Ledger Liqueurs LLC\n218 Market Alley\nChicago, IL 60607",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-DSP-10",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "citrus-standard-application.pdf",
+      "metadata": {
+        "title": "Citrus Standard synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-FL-21010",
+        "year": "26",
+        "serialNumber": "2010",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "CITRUS STANDARD",
+        "fancifulName": "BRIGHT NO. 3",
+        "applicantNameAndAddress": "Citrus Standard Spirits LLC\n630 Orange Avenue\nTampa, FL 33602",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "CITRUS STANDARD",
+        "fancifulName": "BRIGHT NO. 3",
+        "classTypeDesignation": "ORANGE LIQUEUR",
+        "originLine": "AMERICAN",
+        "alcoholContent": "35% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Citrus Standard Spirits LLC\n630 Orange Avenue\nTampa, FL 33602",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-MALT-01",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "trail-signal-application.pdf",
+      "metadata": {
+        "title": "Trail Signal synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-CO-31001",
+        "year": "26",
+        "serialNumber": "3001",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "TRAIL SIGNAL",
+        "fancifulName": "SUMMIT",
+        "applicantNameAndAddress": "Trail Signal Brewing LLC\n24 Summit Road\nBoulder, CO 80302",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "TRAIL SIGNAL",
+        "fancifulName": "SUMMIT",
+        "classTypeDesignation": "AMERICAN PALE ALE",
+        "originLine": "",
+        "alcoholContent": "5.4% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Trail Signal Brewing LLC\n24 Summit Road\nBoulder, CO 80302",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-MALT-02",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "green-compass-application.pdf",
+      "metadata": {
+        "title": "Green Compass synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-OR-31002",
+        "year": "26",
+        "serialNumber": "3002",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "GREEN COMPASS",
+        "fancifulName": "WESTBOUND",
+        "applicantNameAndAddress": "Green Compass Brewery LLC\n119 Hop Yard Lane\nPortland, OR 97209",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "GREEN COMPASS",
+        "fancifulName": "WESTBOUND",
+        "classTypeDesignation": "INDIA PALE ALE",
+        "originLine": "",
+        "alcoholContent": "6.8% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Green Compass Brewery LLC\n119 Hop Yard Lane\nPortland, OR 97209",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-MALT-03",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "foundry-light-application.pdf",
+      "metadata": {
+        "title": "Foundry Light synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-WI-31003",
+        "year": "26",
+        "serialNumber": "3003",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "FOUNDRY LIGHT",
+        "fancifulName": "NO. 12",
+        "applicantNameAndAddress": "Foundry Light Brewing LLC\n12 Foundry Street\nMilwaukee, WI 53204",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "FOUNDRY LIGHT",
+        "fancifulName": "NO. 12",
+        "classTypeDesignation": "AMERICAN LAGER",
+        "originLine": "",
+        "alcoholContent": "4.6% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Foundry Light Brewing LLC\n12 Foundry Street\nMilwaukee, WI 53204",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-MALT-04",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "night-bridge-application.pdf",
+      "metadata": {
+        "title": "Night Bridge synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-VA-31004",
+        "year": "26",
+        "serialNumber": "3004",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "NIGHT BRIDGE",
+        "fancifulName": "STONE ARCH",
+        "applicantNameAndAddress": "Night Bridge Brewing LLC\n302 Canal Avenue\nRichmond, VA 23219",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "NIGHT BRIDGE",
+        "fancifulName": "STONE ARCH",
+        "classTypeDesignation": "PORTER",
+        "originLine": "",
+        "alcoholContent": "6.2% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Night Bridge Brewing LLC\n302 Canal Avenue\nRichmond, VA 23219",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-MALT-05",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "oak-ember-application.pdf",
+      "metadata": {
+        "title": "Oak & Ember synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-NC-31005",
+        "year": "26",
+        "serialNumber": "3005",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "OAK & EMBER",
+        "fancifulName": "ROASTED",
+        "applicantNameAndAddress": "Oak and Ember Brewery LLC\n54 Cooper Lane\nAsheville, NC 28801",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "OAK & EMBER",
+        "fancifulName": "ROASTED",
+        "classTypeDesignation": "STOUT",
+        "originLine": "",
+        "alcoholContent": "6.5% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Oak and Ember Brewery LLC\n54 Cooper Lane\nAsheville, NC 28801",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-MALT-06",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "golden-field-application.pdf",
+      "metadata": {
+        "title": "Golden Field synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-MO-31006",
+        "year": "26",
+        "serialNumber": "3006",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "GOLDEN FIELD",
+        "fancifulName": "CLOUDLINE",
+        "applicantNameAndAddress": "Golden Field Brewing LLC\n811 Grain Road\nKansas City, MO 64108",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "GOLDEN FIELD",
+        "fancifulName": "CLOUDLINE",
+        "classTypeDesignation": "WHEAT ALE",
+        "originLine": "",
+        "alcoholContent": "5.0% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Golden Field Brewing LLC\n811 Grain Road\nKansas City, MO 64108",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-MALT-07",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "clear-bell-application.pdf",
+      "metadata": {
+        "title": "Clear Bell synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-OH-31007",
+        "year": "26",
+        "serialNumber": "3007",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "CLEAR BELL",
+        "fancifulName": "CRISP SERIES",
+        "applicantNameAndAddress": "Clear Bell Brewery LLC\n76 Bellworks Drive\nColumbus, OH 43215",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "CLEAR BELL",
+        "fancifulName": "CRISP SERIES",
+        "classTypeDesignation": "PILSNER",
+        "originLine": "",
+        "alcoholContent": "4.8% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Clear Bell Brewery LLC\n76 Bellworks Drive\nColumbus, OH 43215",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-MALT-08",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "copper-grove-application.pdf",
+      "metadata": {
+        "title": "Copper Grove synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-VT-31008",
+        "year": "26",
+        "serialNumber": "3008",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "COPPER GROVE",
+        "fancifulName": "AUTUMN",
+        "applicantNameAndAddress": "Copper Grove Brewing LLC\n205 Maple Street\nBurlington, VT 05401",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "COPPER GROVE",
+        "fancifulName": "AUTUMN",
+        "classTypeDesignation": "AMBER ALE",
+        "originLine": "",
+        "alcoholContent": "5.7% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Copper Grove Brewing LLC\n205 Maple Street\nBurlington, VT 05401",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-MALT-09",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "river-clock-application.pdf",
+      "metadata": {
+        "title": "River Clock synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-OH-31009",
+        "year": "26",
+        "serialNumber": "3009",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "RIVER CLOCK",
+        "fancifulName": "OLD TOWN",
+        "applicantNameAndAddress": "River Clock Brewing LLC\n18 Clocktower Way\nCincinnati, OH 45202",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "RIVER CLOCK",
+        "fancifulName": "OLD TOWN",
+        "classTypeDesignation": "KÖLSCH-STYLE ALE",
+        "originLine": "",
+        "alcoholContent": "4.9% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "River Clock Brewing LLC\n18 Clocktower Way\nCincinnati, OH 45202",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    },
+    {
+      "caseId": "PASS-MALT-10",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "hearth-hollow-application.pdf",
+      "metadata": {
+        "title": "Hearth & Hollow synthetic passing application",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-MI-31010",
+        "year": "26",
+        "serialNumber": "3010",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "HEARTH & HOLLOW",
+        "fancifulName": "WOODLAND",
+        "applicantNameAndAddress": "Hearth and Hollow Brewing LLC\n440 Forest Avenue\nGrand Rapids, MI 49503",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "HEARTH & HOLLOW",
+        "fancifulName": "WOODLAND",
+        "classTypeDesignation": "BROWN ALE",
+        "originLine": "",
+        "alcoholContent": "5.6% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Hearth and Hollow Brewing LLC\n440 Forest Avenue\nGrand Rapids, MI 49503",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    }
+  ]
+}

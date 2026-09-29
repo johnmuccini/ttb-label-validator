@@ -1,0 +1,28 @@
+{
+  "id": "mock_pass-wine-04",
+  "status": "completed",
+  "usage": {
+    "total_tokens": 0,
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_thought_tokens": 0
+  },
+  "steps": [
+    {
+      "content": [
+        {
+          "text": "{\n  \"fields\": {\n    \"brandName\": {\n      \"raw\": \"BLUE EMBER\",\n      \"status\": \"observed\",\n      \"evidence\": [\n        {\n          \"imageId\": \"label-01\",\n          \"text\": \"BLUE EMBER\"\n        }\n      ],\n      \"notes\": \"\"\n    },\n    \"classTypeDesignation\": {\n      \"raw\": \"RIESLING\",\n      \"status\": \"observed\",\n      \"evidence\": [\n        {\n          \"imageId\": \"label-01\",\n          \"text\": \"RIESLING\"\n        }\n      ],\n      \"notes\": \"\"\n    },\n    \"wineAppellation\": {\n      \"raw\": \"COLUMBIA VALLEY\",\n      \"status\": \"observed\",\n      \"evidence\": [\n        {\n          \"imageId\": \"label-01\",\n          \"text\": \"COLUMBIA VALLEY\"\n        }\n      ],\n      \"notes\": \"\"\n    },\n    \"alcoholContent\": {\n      \"raw\": \"12.0% ALC. BY VOL.\",\n      \"status\": \"observed\",\n      \"evidence\": [\n        {\n          \"imageId\": \"label-01\",\n          \"text\": \"12.0% ALC. BY VOL.\"\n        }\n      ],\n      \"notes\": \"\"\n    },\n    \"netContents\": {\n      \"raw\": \"750 mL\",\n      \"status\": \"observed\",\n      \"evidence\": [\n        {\n          \"imageId\": \"label-01\",\n          \"text\": \"750 mL\"\n        }\n      ],\n      \"notes\": \"\"\n    },\n    \"bottlerProducerNameAndAddress\": {\n      \"raw\": \"Produced and bottled by\\nBlue Ember Wine Company\\n45 Basin View Drive\\nWalla Walla, WA 99362\",\n      \"status\": \"observed\",\n      \"evidence\": [\n        {\n          \"imageId\": \"label-02\",\n          \"text\": \"Produced and bottled by\\nBlue Ember Wine Company\\n45 Basin View Drive\\nWalla Walla, WA 99362\"\n        }\n      ],\n      \"notes\": \"\"\n    },\n    \"countryOfOrigin\": {\n      \"raw\": null,\n      \"status\": \"not_found\",\n      \"evidence\": [],\n      \"notes\": \"\"\n    },\n    \"governmentWarning\": {\n      \"raw\": \"GOVERNMENT WARNING: (1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.\",\n      \"status\": \"observed\",\n      \"evidence\": [\n        {\n          \"imageId\": \"label-02\",\n          \"text\": \"GOVERNMENT WARNING: (1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.\"\n        }\n      ],\n      \"notes\": \"\"\n    },\n    \"importerNameAndAddress\": {\n      \"raw\": null,\n      \"status\": \"not_found\",\n      \"evidence\": [],\n      \"notes\": \"\"\n    }\n  },\n  \"warningFormatting\": {\n    \"headingText\": \"GOVERNMENT WARNING:\",\n    \"headingAllCaps\": true,\n    \"headingBold\": true,\n    \"relativeSize\": \"similar\",\n    \"evidence\": [\n      {\n        \"imageId\": \"label-02\",\n        \"text\": \"GOVERNMENT WARNING:\"\n      }\n    ],\n    \"notes\": \"\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ],
+  "object": "interaction",
+  "model": "synthetic-fixture",
+  "mockMetadata": {
+    "synthetic": true,
+    "caseId": "PASS-WINE-04",
+    "generatedFrom": "mock-corpus source data"
+  }
+}

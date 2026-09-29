@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Synthetic TTB application fixture",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["fixtureId", "outputPdf", "form", "labelImages"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "fixtureId": { "type": "string", "minLength": 1 },
+    "outputPdf": { "type": "string", "pattern": "\\.[pP][dD][fF]$" },
+    "sourceForm": { "type": "string", "minLength": 1 },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string" },
+        "subject": { "type": "string" }
+      }
+    },
+    "form": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "permitNumber", "year", "serialNumber", "sourceOfProduct", "productCategory",
+        "brandName", "applicantNameAndAddress", "applicationDate", "signerName"
+      ],
+      "properties": {
+        "permitNumber": { "type": "string" },
+        "year": { "type": "string", "pattern": "^[0-9]{2}$" },
+        "serialNumber": { "type": "string", "pattern": "^[0-9]{4}$" },
+        "sourceOfProduct": { "enum": ["Domestic", "Imported"] },
+        "productCategory": { "enum": ["Wine", "Distilled spirits", "Malt beverages"] },
+        "brandName": { "type": "string" },
+        "fancifulName": { "type": "string" },
+        "applicantNameAndAddress": { "type": "string" },
+        "mailingAddress": { "type": "string" },
+        "formula": { "type": "string" },
+        "grapeVarietals": { "type": "string" },
+        "wineAppellation": { "type": "string" },
+        "applicationTypes": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "labelApproval": { "type": "boolean" },
+            "exemption": { "type": "boolean" },
+            "distinctiveBottle": { "type": "boolean" },
+            "resubmission": { "type": "boolean" }
+          }
+        },
+        "applicationDate": { "type": "string" },
+        "signerName": { "type": "string" },
+        "signatureText": { "type": "string" }
+      }
+    },
+    "labelImages": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["file"],
+        "properties": {
+          "file": { "type": "string", "minLength": 1 },
+          "caption": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "expected": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["outcome", "expectedFindings", "labelFields", "governmentWarningFormatting"],
+      "properties": {
+        "outcome": { "enum": ["pass", "manual_review", "reject"] },
+        "expectedFindings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["code", "field", "description"],
+            "properties": {
+              "code": { "type": "string" },
+              "field": { "type": "string" },
+              "description": { "type": "string" },
+              "applicationValue": {},
+              "labelValue": {}
+            },
+            "additionalProperties": false
+          }
+        },
+        "labelFields": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "brandName", "classTypeDesignation", "alcoholContent", "netContents",
+            "bottlerProducerNameAndAddress", "countryOfOrigin", "governmentWarning",
+            "importerNameAndAddress"
+          ],
+          "properties": {
+            "brandName": { "type": ["string", "null"] },
+            "classTypeDesignation": { "type": ["string", "null"] },
+            "alcoholContent": { "type": ["string", "null"] },
+            "netContents": { "type": ["string", "null"] },
+            "bottlerProducerNameAndAddress": { "type": ["string", "null"] },
+            "countryOfOrigin": { "type": ["string", "null"] },
+            "governmentWarning": { "type": ["string", "null"] },
+            "importerNameAndAddress": { "type": ["string", "null"] }
+          }
+        },
+        "governmentWarningFormatting": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["headingText", "headingAllCaps", "headingBold"],
+          "properties": {
+            "headingText": { "const": "GOVERNMENT WARNING:" },
+            "headingAllCaps": { "const": true },
+            "headingBold": { "const": true }
+          }
+        }
+      }
+    }
+  }
+}

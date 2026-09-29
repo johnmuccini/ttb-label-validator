@@ -1,0 +1,28 @@
+{
+  "id": "mock_fail-dsp-05",
+  "status": "completed",
+  "usage": {
+    "total_tokens": 0,
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "total_thought_tokens": 0
+  },
+  "steps": [
+    {
+      "content": [
+        {
+          "text": "{\n  \"fields\": {\n    \"brandName\": {\n      \"raw\": \"GRANITE RAIL\",\n      \"status\": \"observed\",\n      \"evidence\": [\n        {\n          \"imageId\": \"label-01\",\n          \"text\": \"GRANITE RAIL\"\n        }\n      ],\n      \"notes\": \"\"\n    },\n    \"classTypeDesignation\": {\n      \"raw\": \"STRAIGHT RYE WHISKY\",\n      \"status\": \"observed\",\n      \"evidence\": [\n        {\n          \"imageId\": \"label-01\",\n          \"text\": \"STRAIGHT RYE WHISKY\"\n        }\n      ],\n      \"notes\": \"\"\n    },\n    \"wineAppellation\": {\n      \"raw\": null,\n      \"status\": \"not_found\",\n      \"evidence\": [],\n      \"notes\": \"\"\n    },\n    \"alcoholContent\": {\n      \"raw\": \"50% ALC. BY VOL.\",\n      \"status\": \"observed\",\n      \"evidence\": [\n        {\n          \"imageId\": \"label-01\",\n          \"text\": \"50% ALC. BY VOL.\"\n        }\n      ],\n      \"notes\": \"\"\n    },\n    \"netContents\": {\n      \"raw\": \"750 mL\",\n      \"status\": \"observed\",\n      \"evidence\": [\n        {\n          \"imageId\": \"label-01\",\n          \"text\": \"750 mL\"\n        }\n      ],\n      \"notes\": \"\"\n    },\n    \"bottlerProducerNameAndAddress\": {\n      \"raw\": \"Distilled and bottled by\\nGranite Rail Distillers LLC\\n501 Rickshed Avenue\\nLouisville, KY 40202\",\n      \"status\": \"observed\",\n      \"evidence\": [\n        {\n          \"imageId\": \"label-02\",\n          \"text\": \"Distilled and bottled by\\nGranite Rail Distillers LLC\\n501 Rickshed Avenue\\nLouisville, KY 40202\"\n        }\n      ],\n      \"notes\": \"\"\n    },\n    \"countryOfOrigin\": {\n      \"raw\": null,\n      \"status\": \"not_found\",\n      \"evidence\": [],\n      \"notes\": \"\"\n    },\n    \"governmentWarning\": {\n      \"raw\": null,\n      \"status\": \"not_found\",\n      \"evidence\": [],\n      \"notes\": \"\"\n    },\n    \"importerNameAndAddress\": {\n      \"raw\": null,\n      \"status\": \"not_found\",\n      \"evidence\": [],\n      \"notes\": \"\"\n    }\n  },\n  \"warningFormatting\": {\n    \"headingText\": null,\n    \"headingAllCaps\": null,\n    \"headingBold\": null,\n    \"relativeSize\": \"undetermined\",\n    \"evidence\": [],\n    \"notes\": \"\"\n  }\n}",
+          "type": "text"
+        }
+      ],
+      "type": "model_output"
+    }
+  ],
+  "object": "interaction",
+  "model": "synthetic-fixture",
+  "mockMetadata": {
+    "synthetic": true,
+    "caseId": "FAIL-DSP-05",
+    "generatedFrom": "mock-corpus source data"
+  }
+}

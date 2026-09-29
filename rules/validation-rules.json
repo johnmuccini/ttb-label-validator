@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "rulesVersion": "2026-09-28.3",
+  "supportedFormRevisions": ["04/2023"],
+  "normalization": {
+    "ignoreCase": true,
+    "collapseWhitespace": true,
+    "ignoreNonSubstantivePunctuation": true,
+    "allowBrandWithFancifulSuffix": true,
+    "producerRolePrefixes": [
+      "Produced and bottled by",
+      "Distilled and bottled by",
+      "Brewed and packaged by",
+      "Brewed and bottled by",
+      "Bottled by",
+      "Produced by",
+      "Imported by"
+    ]
+  },
+  "requiredApplicationFields": [
+    {
+      "id": "application-brand-required",
+      "field": "brandName",
+      "code": "APPLICATION_BRAND_NAME_MISSING",
+      "message": "The required brand name is missing from the application."
+    },
+    {
+      "id": "application-applicant-required",
+      "field": "applicantNameAndAddress",
+      "code": "APPLICATION_APPLICANT_MISSING",
+      "message": "The applicant name and address are missing from the application."
+    },
+    {
+      "id": "application-product-category-required",
+      "field": "productCategory",
+      "code": "APPLICATION_PRODUCT_CATEGORY_MISSING",
+      "message": "The application does not select a product category."
+    },
+    {
+      "id": "application-source-required",
+      "field": "sourceOfProduct",
+      "code": "APPLICATION_SOURCE_MISSING",
+      "message": "The application does not identify the product as domestic or imported."
+    }
+  ],
+  "requiredLabelFields": [
+    {
+      "id": "label-brand-required",
+      "field": "brandName",
+      "code": "LABEL_BRAND_NAME_MISSING",
+      "message": "The brand name is missing from the label."
+    },
+    {
+      "id": "label-class-type-required",
+      "field": "classTypeDesignation",
+      "code": "LABEL_CLASS_TYPE_MISSING",
+      "message": "The class/type designation is missing from the label."
+    },
+    {
+      "id": "label-net-contents-required",
+      "field": "netContents",
+      "code": "LABEL_NET_CONTENTS_MISSING",
+      "message": "Net contents are missing from the label."
+    },
+    {
+      "id": "label-producer-required",
+      "field": "bottlerProducerNameAndAddress",
+      "code": "LABEL_PRODUCER_MISSING",
+      "message": "The producer or bottler name and address are missing from the label."
+    },
+    {
+      "id": "wine-appellation-required",
+      "field": "wineAppellation",
+      "code": "LABEL_WINE_APPELLATION_MISSING",
+      "message": "The wine appellation shown on the application is missing from the label.",
+      "whenProductCategories": ["Wine"]
+    },
+    {
+      "id": "import-country-required",
+      "field": "countryOfOrigin",
+      "code": "COUNTRY_OF_ORIGIN_MISSING",
+      "message": "Country of origin is missing from the imported-product label.",
+      "whenSourceOfProduct": ["Imported"]
+    },
+    {
+      "id": "importer-required",
+      "field": "importerNameAndAddress",
+      "code": "IMPORTER_INFORMATION_MISSING",
+      "message": "Importer name and address are missing from the imported-product label.",
+      "whenSourceOfProduct": ["Imported"]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "brand-match",
+      "kind": "brand",
+      "applicationField": "brandName",
+      "labelField": "brandName",
+      "code": "BRAND_NAME_MISMATCH",
+      "message": "The application and label brand names do not match."
+    },
+    {
+      "id": "domestic-producer-match",
+      "kind": "producer",
+      "applicationField": "applicantNameAndAddress",
+      "labelField": "bottlerProducerNameAndAddress",
+      "code": "PRODUCER_ADDRESS_MISMATCH",
+      "message": "The application applicant and label producer or bottler information do not match.",
+      "whenSourceOfProduct": ["Domestic"]
+    },
+    {
+      "id": "importer-applicant-match",
+      "kind": "producer",
+      "applicationField": "applicantNameAndAddress",
+      "labelField": "importerNameAndAddress",
+      "code": "IMPORTER_APPLICATION_MISMATCH",
+      "message": "The application applicant and label importer information do not match.",
+      "whenSourceOfProduct": ["Imported"]
+    },
+    {
+      "id": "product-category-match",
+      "kind": "category",
+      "applicationField": "productCategory",
+      "labelField": "classTypeDesignation",
+      "code": "PRODUCT_CATEGORY_MISMATCH",
+      "message": "The selected application product category does not match the label class/type."
+    },
+    {
+      "id": "wine-appellation-match",
+      "kind": "text",
+      "applicationField": "wineAppellation",
+      "labelField": "wineAppellation",
+      "code": "WINE_APPELLATION_MISMATCH",
+      "message": "The wine appellation on the application does not match the label."
+    }
+  ],
+  "productCategoryClassTypes": {
+    "Wine": [
+      "CABERNET SAUVIGNON", "CHARDONNAY", "DESSERT WINE", "MERLOT", "PINOT NOIR",
+      "RIESLING", "ROSÉ", "SAUVIGNON BLANC", "SPARKLING WINE", "SYRAH", "ZINFANDEL", "ROSE"
+    ],
+    "Distilled spirits": [
+      "AMERICAN SINGLE MALT WHISKY", "APPLE BRANDY", "COFFEE LIQUEUR", "GIN",
+      "ORANGE LIQUEUR", "PEACH BRANDY", "RUM", "STRAIGHT BOURBON WHISKY",
+      "STRAIGHT RYE WHISKY", "VODKA", "WHISKY"
+    ],
+    "Malt beverages": [
+      "AMBER ALE", "AMERICAN LAGER", "AMERICAN PALE ALE", "BROWN ALE", "INDIA PALE ALE",
+      "KÖLSCH-STYLE ALE", "PILSNER", "PORTER", "STOUT", "WHEAT ALE", "KOLSCH-STYLE ALE"
+    ]
+  },
+  "abvRules": [
+    {
+      "id": "whisky-minimum-abv",
+      "classTypePattern": "\\b(?:WHISKY|WHISKEY)\\b",
+      "minimum": 40,
+      "minimumInclusive": true,
+      "belowMinimumCode": "ALCOHOL_CONTENT_BELOW_CLASS_MINIMUM",
+      "missingCode": "LABEL_ALCOHOL_CONTENT_MISSING",
+      "description": "Whisky must be bottled at not less than 40 percent alcohol by volume."
+    },
+    {
+      "id": "dessert-wine-abv-range",
+      "classTypePattern": "^DESSERT WINE$",
+      "minimum": 14,
+      "minimumInclusive": false,
+      "maximum": 24,
+      "maximumInclusive": true,
+      "belowMinimumCode": "ALCOHOL_CONTENT_BELOW_CLASS_MINIMUM",
+      "aboveMaximumCode": "ALCOHOL_CONTENT_ABOVE_CLASS_MAXIMUM",
+      "missingCode": "LABEL_ALCOHOL_CONTENT_MISSING",
+      "description": "Dessert wine must contain more than 14 percent and not more than 24 percent alcohol by volume."
+    }
+  ],
+  "governmentWarning": {
+    "heading": "GOVERNMENT WARNING:",
+    "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.",
+    "requireHeadingAllCaps": true,
+    "requireHeadingBold": true,
+    "rejectRelativeSizes": ["smaller"],
+    "manualReviewRelativeSizes": ["undetermined"]
+  }
+}

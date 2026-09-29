@@ -1,0 +1,65 @@
+{
+  "$schema": "corpus-data.schema.json",
+  "schemaVersion": "1.0",
+  "description": "Controlled relative government-warning size test",
+  "outputDirectory": "relative-size-test-cases",
+  "governmentWarning": {
+    "heading": "GOVERNMENT WARNING:",
+    "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.",
+    "headingAllCaps": true,
+    "headingBold": true,
+    "headingFontSizePixels": 31,
+    "bodyFontSizePixels": 31
+  },
+  "cases": [
+    {
+      "caseId": "TEST-WINE-SAME-SIZE-01",
+      "categoryFolder": "wine",
+      "outputPdf": "equal-measure-application.pdf",
+      "metadata": {
+        "title": "Equal Measure synthetic relative-warning-size test",
+        "subject": "Invented conforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11881",
+        "year": "26",
+        "serialNumber": "4881",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "EQUAL MEASURE",
+        "fancifulName": "BALANCED TYPE",
+        "applicantNameAndAddress": "Equal Measure Cellars LLC\n42 Alignment Lane\nSonoma, CA 95476",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Chardonnay",
+        "wineAppellation": "California",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "EQUAL MEASURE",
+        "fancifulName": "BALANCED TYPE",
+        "classTypeDesignation": "CHARDONNAY",
+        "originLine": "CALIFORNIA",
+        "alcoholContent": "13.2% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Equal Measure Cellars LLC\n42 Alignment Lane\nSonoma, CA 95476",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "pass",
+      "expectedFindings": []
+    }
+  ]
+}

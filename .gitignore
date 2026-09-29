@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+.vs/
+work/
+__pycache__/
+*.pyc
+test-data/mock-corpus/pass-cases/
+test-data/mock-corpus/fail-cases/
+test-data/mock-corpus/relative-size-test-cases/
+

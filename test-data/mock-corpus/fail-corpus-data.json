@@ -1,0 +1,1800 @@
+{
+  "$schema": "corpus-data.schema.json",
+  "schemaVersion": "1.0",
+  "description": "Synthetic non-passing TTB application corpus",
+  "outputDirectory": "fail-cases",
+  "governmentWarning": {
+    "heading": "GOVERNMENT WARNING:",
+    "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.",
+    "headingAllCaps": true,
+    "headingBold": true,
+    "headingFontSizePixels": 31,
+    "bodyFontSizePixels": 31
+  },
+  "cases": [
+    {
+      "caseId": "FAIL-WINE-01",
+      "categoryFolder": "wine",
+      "outputPdf": "sunward-ridge-application.pdf",
+      "metadata": {
+        "title": "Sunward Ridge synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11001",
+        "year": "26",
+        "serialNumber": "4001",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "SUNWARD RIDGE",
+        "fancifulName": "DAYBREAK",
+        "applicantNameAndAddress": "Sunward Ridge Cellars LLC\n101 Golden Vine Road\nSonoma, CA 95476",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Chardonnay",
+        "wineAppellation": "California",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "SUNWARD RIDGE",
+        "fancifulName": "DAYBREAK",
+        "classTypeDesignation": "CHARDONNAY",
+        "originLine": "CALIFORNIA",
+        "alcoholContent": "13.2% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Sunward Ridge Cellars LLC\n101 Golden Vine Road\nSonoma, CA 95476",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine",
+        "governmentWarning": {
+          "heading": "GOVERNMENT WARNING:",
+          "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.",
+          "headingAllCaps": true,
+          "headingBold": false
+        }
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "GOVERNMENT_WARNING_NOT_BOLD",
+          "field": "governmentWarning",
+          "description": "The GOVERNMENT WARNING heading is not bold."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-WINE-02",
+      "categoryFolder": "wine",
+      "outputPdf": "copper-finch-application.pdf",
+      "metadata": {
+        "title": "Copper Finch synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11002",
+        "year": "26",
+        "serialNumber": "4002",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "COPPER FINCH",
+        "fancifulName": "ESTATE SELECTION",
+        "applicantNameAndAddress": "Copper Finch Winery LLC\n214 Harvest Lane\nNapa, CA 94558",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Cabernet Sauvignon",
+        "wineAppellation": "Napa Valley",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "COPPER FINCH",
+        "fancifulName": "ESTATE SELECTION",
+        "classTypeDesignation": "CABERNET SAUVIGNON",
+        "originLine": "NAPA VALLEY",
+        "alcoholContent": "14.1% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Copper Finch Winery LLC\n214 Harvest Lane\nNapa, CA 94558",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine",
+        "governmentWarning": {
+          "heading": "GOVERNMENT WARNING:",
+          "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health concerns.",
+          "headingAllCaps": true,
+          "headingBold": true
+        }
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "GOVERNMENT_WARNING_TEXT_INCORRECT",
+          "field": "governmentWarning",
+          "description": "The warning text ends with health concerns instead of the required health problems."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-WINE-03",
+      "categoryFolder": "wine",
+      "outputPdf": "harbor-pine-application.pdf",
+      "metadata": {
+        "title": "Harbor & Pine synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-OR-11003",
+        "year": "26",
+        "serialNumber": "4003",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "",
+        "fancifulName": "COASTAL SERIES",
+        "applicantNameAndAddress": "Harbor and Pine Wines LLC\n330 Orchard Way\nMcMinnville, OR 97128",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Pinot Noir",
+        "wineAppellation": "Willamette Valley",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "HARBOR & PINE",
+        "fancifulName": "COASTAL SERIES",
+        "classTypeDesignation": "PINOT NOIR",
+        "originLine": "WILLAMETTE VALLEY",
+        "alcoholContent": "13.5% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Harbor and Pine Wines LLC\n330 Orchard Way\nMcMinnville, OR 97128",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "APPLICATION_BRAND_NAME_MISSING",
+          "field": "brandName",
+          "description": "The required brand name is missing from the application.",
+          "applicationValue": null,
+          "labelValue": "HARBOR & PINE"
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-WINE-04",
+      "categoryFolder": "wine",
+      "outputPdf": "blue-ember-application.pdf",
+      "metadata": {
+        "title": "Blue Ember synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-WA-11004",
+        "year": "26",
+        "serialNumber": "4004",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "BLUE EMBER",
+        "fancifulName": "RIVERSTONE",
+        "applicantNameAndAddress": "Blue Ember Wine Company\n45 Basin View Drive\nWalla Walla, WA 99362",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Riesling",
+        "wineAppellation": "Columbia Valley",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "BLUE EMBER",
+        "fancifulName": "RIVERSTONE",
+        "classTypeDesignation": "RIESLING",
+        "originLine": "COLUMBIA VALLEY",
+        "alcoholContent": "12.0% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Blue Ember Wine Company\n45 Basin View Drive\nWalla Walla, WA 99362",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "PRODUCT_CATEGORY_MISMATCH",
+          "field": "productCategory",
+          "description": "The selected application product category does not match the label.",
+          "applicationValue": "Malt beverages",
+          "labelValue": "Wine"
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-DSP-01",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "iron-willow-application.pdf",
+      "metadata": {
+        "title": "Iron Willow synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-KY-21001",
+        "year": "26",
+        "serialNumber": "4101",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "IRON WILLOW",
+        "fancifulName": "SMALL BATCH",
+        "applicantNameAndAddress": "Iron Willow Distilling LLC\n12 Cooper Street\nFrankfort, KY 40601",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "IRON WILLOW",
+        "fancifulName": "SMALL BATCH",
+        "classTypeDesignation": "STRAIGHT BOURBON WHISKY",
+        "originLine": "AMERICAN",
+        "alcoholContent": "45% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Iron Willow Distilling LLC\n12 Cooper Street\nFrankfort, KY 40601",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits",
+        "governmentWarning": {
+          "heading": "GOVERNMENT WARNING:",
+          "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.",
+          "headingAllCaps": true,
+          "headingBold": false
+        }
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "GOVERNMENT_WARNING_NOT_BOLD",
+          "field": "governmentWarning",
+          "description": "The GOVERNMENT WARNING heading is not bold."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-DSP-02",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "northline-application.pdf",
+      "metadata": {
+        "title": "Northline synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-CO-21002",
+        "year": "26",
+        "serialNumber": "4102",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "NORTHLINE",
+        "fancifulName": "NO. 7",
+        "applicantNameAndAddress": "Northline Spirits LLC\n70 Clear Spring Road\nDenver, CO 80205",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "NORTHLINE",
+        "fancifulName": "NO. 7",
+        "classTypeDesignation": "VODKA",
+        "originLine": "AMERICAN",
+        "alcoholContent": "40% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Northline Spirits LLC\n70 Clear Spring Road\nDenver, CO 80205",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits",
+        "governmentWarning": {
+          "heading": "GOVERNMENT WARNING:",
+          "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health concerns.",
+          "headingAllCaps": true,
+          "headingBold": true
+        }
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "GOVERNMENT_WARNING_TEXT_INCORRECT",
+          "field": "governmentWarning",
+          "description": "The warning text ends with health concerns instead of the required health problems."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-DSP-03",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "botanical-harbor-application.pdf",
+      "metadata": {
+        "title": "Botanical Harbor synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-ME-21003",
+        "year": "26",
+        "serialNumber": "4103",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "",
+        "fancifulName": "COASTAL DRY",
+        "applicantNameAndAddress": "Botanical Harbor Distillery LLC\n88 Juniper Wharf\nPortland, ME 04101",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "BOTANICAL HARBOR",
+        "fancifulName": "COASTAL DRY",
+        "classTypeDesignation": "GIN",
+        "originLine": "AMERICAN",
+        "alcoholContent": "43% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Botanical Harbor Distillery LLC\n88 Juniper Wharf\nPortland, ME 04101",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "APPLICATION_BRAND_NAME_MISSING",
+          "field": "brandName",
+          "description": "The required brand name is missing from the application.",
+          "applicationValue": null,
+          "labelValue": "BOTANICAL HARBOR"
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-DSP-04",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "copper-current-application.pdf",
+      "metadata": {
+        "title": "Copper Current synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-GA-21004",
+        "year": "26",
+        "serialNumber": "4104",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "COPPER CURRENT",
+        "fancifulName": "BARREL RESERVE",
+        "applicantNameAndAddress": "Copper Current Spirits LLC\n214 River Mill Road\nSavannah, GA 31401",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "COPPER CURRENT",
+        "fancifulName": "BARREL RESERVE",
+        "classTypeDesignation": "RUM",
+        "originLine": "AMERICAN",
+        "alcoholContent": "40% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Copper Current Spirits LLC\n214 River Mill Road\nSavannah, GA 31401",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "PRODUCT_CATEGORY_MISMATCH",
+          "field": "productCategory",
+          "description": "The selected application product category does not match the label.",
+          "applicationValue": "Wine",
+          "labelValue": "Distilled spirits"
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-MALT-01",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "trail-signal-application.pdf",
+      "metadata": {
+        "title": "Trail Signal synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-CO-31001",
+        "year": "26",
+        "serialNumber": "4201",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "TRAIL SIGNAL",
+        "fancifulName": "SUMMIT",
+        "applicantNameAndAddress": "Trail Signal Brewing LLC\n24 Summit Road\nBoulder, CO 80302",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "TRAIL SIGNAL",
+        "fancifulName": "SUMMIT",
+        "classTypeDesignation": "AMERICAN PALE ALE",
+        "originLine": "",
+        "alcoholContent": "5.4% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Trail Signal Brewing LLC\n24 Summit Road\nBoulder, CO 80302",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages",
+        "governmentWarning": {
+          "heading": "GOVERNMENT WARNING:",
+          "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.",
+          "headingAllCaps": true,
+          "headingBold": false
+        }
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "GOVERNMENT_WARNING_NOT_BOLD",
+          "field": "governmentWarning",
+          "description": "The GOVERNMENT WARNING heading is not bold."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-MALT-02",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "green-compass-application.pdf",
+      "metadata": {
+        "title": "Green Compass synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-OR-31002",
+        "year": "26",
+        "serialNumber": "4202",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "GREEN COMPASS",
+        "fancifulName": "WESTBOUND",
+        "applicantNameAndAddress": "Green Compass Brewery LLC\n119 Hop Yard Lane\nPortland, OR 97209",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "GREEN COMPASS",
+        "fancifulName": "WESTBOUND",
+        "classTypeDesignation": "INDIA PALE ALE",
+        "originLine": "",
+        "alcoholContent": "6.8% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Green Compass Brewery LLC\n119 Hop Yard Lane\nPortland, OR 97209",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages",
+        "governmentWarning": {
+          "heading": "GOVERNMENT WARNING:",
+          "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health concerns.",
+          "headingAllCaps": true,
+          "headingBold": true
+        }
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "GOVERNMENT_WARNING_TEXT_INCORRECT",
+          "field": "governmentWarning",
+          "description": "The warning text ends with health concerns instead of the required health problems."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-MALT-03",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "foundry-light-application.pdf",
+      "metadata": {
+        "title": "Foundry Light synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-WI-31003",
+        "year": "26",
+        "serialNumber": "4203",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "",
+        "fancifulName": "NO. 12",
+        "applicantNameAndAddress": "Foundry Light Brewing LLC\n12 Foundry Street\nMilwaukee, WI 53204",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "FOUNDRY LIGHT",
+        "fancifulName": "NO. 12",
+        "classTypeDesignation": "AMERICAN LAGER",
+        "originLine": "",
+        "alcoholContent": "4.6% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Foundry Light Brewing LLC\n12 Foundry Street\nMilwaukee, WI 53204",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "APPLICATION_BRAND_NAME_MISSING",
+          "field": "brandName",
+          "description": "The required brand name is missing from the application.",
+          "applicationValue": null,
+          "labelValue": "FOUNDRY LIGHT"
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-MALT-04",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "night-bridge-application.pdf",
+      "metadata": {
+        "title": "Night Bridge synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-VA-31004",
+        "year": "26",
+        "serialNumber": "4204",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "NIGHT BRIDGE",
+        "fancifulName": "STONE ARCH",
+        "applicantNameAndAddress": "Night Bridge Brewing LLC\n302 Canal Avenue\nRichmond, VA 23219",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "NIGHT BRIDGE",
+        "fancifulName": "STONE ARCH",
+        "classTypeDesignation": "PORTER",
+        "originLine": "",
+        "alcoholContent": "6.2% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Night Bridge Brewing LLC\n302 Canal Avenue\nRichmond, VA 23219",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "PRODUCT_CATEGORY_MISMATCH",
+          "field": "productCategory",
+          "description": "The selected application product category does not match the label.",
+          "applicationValue": "Distilled spirits",
+          "labelValue": "Malt beverages"
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-WINE-05",
+      "categoryFolder": "wine",
+      "outputPdf": "morning-vale-application.pdf",
+      "metadata": {
+        "title": "Morning Vale synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11005",
+        "year": "26",
+        "serialNumber": "4501",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "MORNING VALE",
+        "fancifulName": "FIRST LIGHT",
+        "applicantNameAndAddress": "Morning Vale Cellars LLC\n782 Meadow Road\nHealdsburg, CA 95448",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Ros\u00e9",
+        "wineAppellation": "California",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "MORNING VALE",
+        "fancifulName": "FIRST LIGHT",
+        "classTypeDesignation": "ROS\u00c9",
+        "originLine": "CALIFORNIA",
+        "alcoholContent": "12.5% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Morning Vale Cellars LLC\n782 Meadow Road\nHealdsburg, CA 95448",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine",
+        "governmentWarning": null
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "GOVERNMENT_WARNING_MISSING",
+          "field": "governmentWarning",
+          "description": "The government warning is missing from the label."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-DSP-05",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "granite-rail-application.pdf",
+      "metadata": {
+        "title": "Granite Rail synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-KY-21005",
+        "year": "26",
+        "serialNumber": "4601",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "GRANITE RAIL",
+        "fancifulName": "BONDED SERIES",
+        "applicantNameAndAddress": "Granite Rail Distillers LLC\n501 Rickshed Avenue\nLouisville, KY 40202",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "GRANITE RAIL",
+        "fancifulName": "BONDED SERIES",
+        "classTypeDesignation": "STRAIGHT RYE WHISKY",
+        "originLine": "AMERICAN",
+        "alcoholContent": "50% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Granite Rail Distillers LLC\n501 Rickshed Avenue\nLouisville, KY 40202",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits",
+        "governmentWarning": null
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "GOVERNMENT_WARNING_MISSING",
+          "field": "governmentWarning",
+          "description": "The government warning is missing from the label."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-MALT-05",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "oak-ember-application.pdf",
+      "metadata": {
+        "title": "Oak & Ember synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-NC-31005",
+        "year": "26",
+        "serialNumber": "4701",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "OAK & EMBER",
+        "fancifulName": "ROASTED",
+        "applicantNameAndAddress": "Oak and Ember Brewery LLC\n54 Cooper Lane\nAsheville, NC 28801",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "OAK & EMBER",
+        "fancifulName": "ROASTED",
+        "classTypeDesignation": "STOUT",
+        "originLine": "",
+        "alcoholContent": "6.5% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Oak and Ember Brewery LLC\n54 Cooper Lane\nAsheville, NC 28801",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages",
+        "governmentWarning": null
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "GOVERNMENT_WARNING_MISSING",
+          "field": "governmentWarning",
+          "description": "The government warning is missing from the label."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-DSP-06",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "orchard-bell-application.pdf",
+      "metadata": {
+        "title": "Orchard Bell synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-NY-21006",
+        "year": "26",
+        "serialNumber": "4602",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "ORCHARD BELL",
+        "fancifulName": "AUTUMN CASK",
+        "applicantNameAndAddress": "Orchard Bell Distillery LLC\n35 Cider Press Lane\nHudson, NY 12534",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "ORCHARD BELL",
+        "fancifulName": "AUTUMN CASK",
+        "classTypeDesignation": "APPLE BRANDY",
+        "originLine": "AMERICAN",
+        "alcoholContent": "40% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Orchard Bell Distillery LLC\n35 Cider Press Lane\nHudson, NY 12534",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits",
+        "governmentWarning": {
+          "heading": "Government Warning:",
+          "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.",
+          "headingAllCaps": false,
+          "headingBold": true
+        }
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "GOVERNMENT_WARNING_NOT_ALL_CAPS",
+          "field": "governmentWarning",
+          "description": "The government warning heading is not in all capital letters."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-WINE-06",
+      "categoryFolder": "wine",
+      "outputPdf": "juniper-gate-application.pdf",
+      "metadata": {
+        "title": "Juniper Gate synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11006",
+        "year": "26",
+        "serialNumber": "4502",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "JUNIPER GATE",
+        "fancifulName": "GARDEN BLOCK",
+        "applicantNameAndAddress": "Juniper Gate Winery LLC\n19 Green Gate Lane\nSonoma, CA 95476",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Sauvignon Blanc",
+        "wineAppellation": "California",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "",
+        "fancifulName": "GARDEN BLOCK",
+        "classTypeDesignation": "SAUVIGNON BLANC",
+        "originLine": "CALIFORNIA",
+        "alcoholContent": "13.0% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Juniper Gate Winery LLC\n19 Green Gate Lane\nSonoma, CA 95476",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "LABEL_BRAND_NAME_MISSING",
+          "field": "brandName",
+          "description": "The brand name is missing from the label.",
+          "applicationValue": "JUNIPER GATE",
+          "labelValue": null
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-MALT-06",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "golden-field-application.pdf",
+      "metadata": {
+        "title": "Golden Field synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-MO-31006",
+        "year": "26",
+        "serialNumber": "4702",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "GOLDEN FIELD",
+        "fancifulName": "CLOUDLINE",
+        "applicantNameAndAddress": "Golden Field Brewing LLC\n811 Grain Road\nKansas City, MO 64108",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "GOLDEN FIELD",
+        "fancifulName": "CLOUDLINE",
+        "classTypeDesignation": "",
+        "originLine": "",
+        "alcoholContent": "5.0% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Golden Field Brewing LLC\n811 Grain Road\nKansas City, MO 64108",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "LABEL_CLASS_TYPE_MISSING",
+          "field": "classTypeDesignation",
+          "description": "The class/type designation is missing from the label.",
+          "labelValue": null
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-DSP-07",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "summer-peach-application.pdf",
+      "metadata": {
+        "title": "Summer Peach synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-GA-21007",
+        "year": "26",
+        "serialNumber": "4603",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "SUMMER PEACH",
+        "fancifulName": "RESERVE",
+        "applicantNameAndAddress": "Summer Peach Spirits LLC\n420 Grove Street\nMacon, GA 31201",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "SUMMER PEACH",
+        "fancifulName": "RESERVE",
+        "classTypeDesignation": "PEACH BRANDY",
+        "originLine": "AMERICAN",
+        "alcoholContent": "40% ALC. BY VOL.",
+        "netContents": "",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Summer Peach Spirits LLC\n420 Grove Street\nMacon, GA 31201",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "LABEL_NET_CONTENTS_MISSING",
+          "field": "netContents",
+          "description": "Net contents are missing from the label.",
+          "labelValue": null
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-WINE-07",
+      "categoryFolder": "wine",
+      "outputPdf": "red-kestrel-application.pdf",
+      "metadata": {
+        "title": "Red Kestrel synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-WA-11007",
+        "year": "26",
+        "serialNumber": "4503",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "RED KESTREL",
+        "fancifulName": "HIGH PLAIN",
+        "applicantNameAndAddress": "Red Kestrel Vintners LLC\n660 Plateau Avenue\nProsser, WA 99350",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Merlot",
+        "wineAppellation": "Columbia Valley",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "RED KESTREL",
+        "fancifulName": "HIGH PLAIN",
+        "classTypeDesignation": "MERLOT",
+        "originLine": "COLUMBIA VALLEY",
+        "alcoholContent": "13.8% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "",
+        "producerNameAndAddress": "",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "LABEL_PRODUCER_MISSING",
+          "field": "bottlerProducerNameAndAddress",
+          "description": "The producer name and address are missing from the label.",
+          "applicationValue": "Red Kestrel Vintners LLC\n660 Plateau Avenue\nProsser, WA 99350",
+          "labelValue": null
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-MALT-07",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "clear-bell-application.pdf",
+      "metadata": {
+        "title": "Clear Bell synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-OH-31007",
+        "year": "26",
+        "serialNumber": "4703",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "CLEAR BELL",
+        "fancifulName": "CRISP SERIES",
+        "applicantNameAndAddress": "Clear Bell Brewery LLC\n76 Bellworks Drive\nColumbus, OH 43215",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "CLEAR BELL RESERVE",
+        "fancifulName": "CRISP SERIES",
+        "classTypeDesignation": "PILSNER",
+        "originLine": "",
+        "alcoholContent": "4.8% ALC. BY VOL.",
+        "netContents": "12 FL OZ (355 mL)",
+        "producerQualifier": "Brewed and packaged by",
+        "producerNameAndAddress": "Clear Bell Brewery LLC\n76 Bellworks Drive\nColumbus, OH 43215",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "BRAND_NAME_MISMATCH",
+          "field": "brandName",
+          "description": "The application and label brand names do not match.",
+          "applicationValue": "CLEAR BELL",
+          "labelValue": "CLEAR BELL RESERVE"
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-DSP-08",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "timber-meridian-application.pdf",
+      "metadata": {
+        "title": "Timber Meridian synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-OR-21008",
+        "year": "26",
+        "serialNumber": "4604",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "TIMBER MERIDIAN",
+        "fancifulName": "PEAK RESERVE",
+        "applicantNameAndAddress": "Timber Meridian Distilling LLC\n77 Malt House Road\nBend, OR 97701",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "TIMBER MERIDIAN",
+        "fancifulName": "PEAK RESERVE",
+        "classTypeDesignation": "AMERICAN SINGLE MALT WHISKY",
+        "originLine": "AMERICAN",
+        "alcoholContent": "46% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Timber Meridian Distilling LLC\n78 Malt House Road\nBend, OR 97701",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "PRODUCER_ADDRESS_MISMATCH",
+          "field": "bottlerProducerNameAndAddress",
+          "description": "The producer street address differs from the application.",
+          "applicationValue": "Timber Meridian Distilling LLC\n77 Malt House Road\nBend, OR 97701",
+          "labelValue": "Timber Meridian Distilling LLC\n78 Malt House Road\nBend, OR 97701"
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-WINE-08",
+      "categoryFolder": "wine",
+      "outputPdf": "silver-thread-application.pdf",
+      "metadata": {
+        "title": "Silver Thread synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "IMP-NJ-4504",
+        "year": "26",
+        "serialNumber": "4504",
+        "sourceOfProduct": "Imported",
+        "productCategory": "Wine",
+        "brandName": "SILVER THREAD",
+        "fancifulName": "HILLSIDE",
+        "applicantNameAndAddress": "Atlantic Beverage Imports LLC\n500 Harbor Avenue\nNewark, NJ 07102",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Syrah",
+        "wineAppellation": "Paso Robles",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "SILVER THREAD",
+        "fancifulName": "HILLSIDE",
+        "classTypeDesignation": "SYRAH",
+        "originLine": "MENDOZA",
+        "alcoholContent": "14.2% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Vina Estrella Sur SA\nRuta 7 Km 1040\nMendoza 5500",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": "Atlantic Beverage Imports LLC\n500 Harbor Avenue\nNewark, NJ 07102",
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "COUNTRY_OF_ORIGIN_MISSING",
+          "field": "countryOfOrigin",
+          "description": "Country of origin is missing from the imported-product label.",
+          "labelValue": null
+        },
+        {
+          "code": "WINE_APPELLATION_MISMATCH",
+          "field": "wineAppellation",
+          "description": "The wine appellation on the application does not match the label.",
+          "applicationValue": "Paso Robles",
+          "labelValue": "MENDOZA"
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-DSP-09",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "night-ledger-application.pdf",
+      "metadata": {
+        "title": "Night Ledger synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "IMP-TX-4605",
+        "year": "26",
+        "serialNumber": "4605",
+        "sourceOfProduct": "Imported",
+        "productCategory": "Distilled spirits",
+        "brandName": "NIGHT LEDGER",
+        "fancifulName": "ROASTER'S CUT",
+        "applicantNameAndAddress": "Frontier Spirits Importers LLC\n90 Commerce Street\nEl Paso, TX 79901",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "NIGHT LEDGER",
+        "fancifulName": "ROASTER'S CUT",
+        "classTypeDesignation": "COFFEE LIQUEUR",
+        "originLine": "",
+        "alcoholContent": "30% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Casa Noche Azul SA\nCamino del Agave 14\nJalisco 46400",
+        "countryOfOrigin": "PRODUCT OF MEXICO",
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "IMPORTER_INFORMATION_MISSING",
+          "field": "importerNameAndAddress",
+          "description": "Importer name and address are missing from the imported-product label.",
+          "labelValue": null
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-MALT-08",
+      "categoryFolder": "malt-beverages",
+      "outputPdf": "copper-grove-application.pdf",
+      "metadata": {
+        "title": "Copper Grove synthetic reject application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BR-VT-31008",
+        "year": "26",
+        "serialNumber": "4704",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Malt beverages",
+        "brandName": "COPPER GROVE",
+        "fancifulName": "AUTUMN",
+        "applicantNameAndAddress": "Copper Grove Brewing LLC\n205 Maple Street\nBurlington, VT 05401",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "",
+        "fancifulName": "",
+        "classTypeDesignation": "",
+        "originLine": "",
+        "alcoholContent": "",
+        "netContents": "",
+        "producerQualifier": "",
+        "producerNameAndAddress": "",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "malt-beverages",
+        "productCategory": "Malt beverages",
+        "present": false,
+        "governmentWarning": null
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "LABEL_MISSING",
+          "field": "label",
+          "description": "No label images are attached to the application."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-WINE-09",
+      "categoryFolder": "wine",
+      "outputPdf": "fine-print-estate-application.pdf",
+      "metadata": {
+        "title": "Fine Print Estate synthetic small-warning application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11991",
+        "year": "26",
+        "serialNumber": "4091",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "FINE PRINT ESTATE",
+        "fancifulName": "RESERVE",
+        "applicantNameAndAddress": "Fine Print Estate LLC\n271 Vineyard Loop\nNapa, CA 94558",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Syrah",
+        "wineAppellation": "Paso Robles",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "FINE PRINT ESTATE",
+        "fancifulName": "RESERVE",
+        "classTypeDesignation": "SYRAH",
+        "originLine": "PASO ROBLES",
+        "alcoholContent": "14.2% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Fine Print Estate LLC\n271 Vineyard Loop\nNapa, CA 94558",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine",
+        "governmentWarning": {
+          "heading": "GOVERNMENT WARNING:",
+          "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.",
+          "headingAllCaps": true,
+          "headingBold": true,
+          "headingFontSizePixels": 12,
+          "bodyFontSizePixels": 12
+        }
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "GOVERNMENT_WARNING_RELATIVELY_SMALL",
+          "field": "governmentWarning",
+          "description": "The warning body is substantially smaller than the ordinary informational text on the submitted label artwork."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-WINE-10",
+      "categoryFolder": "wine",
+      "outputPdf": "quiet-serif-application.pdf",
+      "metadata": {
+        "title": "Quiet Serif synthetic small-warning application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11992",
+        "year": "26",
+        "serialNumber": "4092",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "QUIET SERIF",
+        "fancifulName": "CELLAR SELECTION",
+        "applicantNameAndAddress": "Quiet Serif Cellars LLC\n84 Subtle Type Road\nSonoma, CA 95476",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Chardonnay, Pinot Noir",
+        "wineAppellation": "California",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "QUIET SERIF",
+        "fancifulName": "CELLAR SELECTION",
+        "classTypeDesignation": "SPARKLING WINE",
+        "originLine": "CALIFORNIA",
+        "alcoholContent": "11.8% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Quiet Serif Cellars LLC\n84 Subtle Type Road\nSonoma, CA 95476",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine",
+        "governmentWarning": {
+          "heading": "GOVERNMENT WARNING:",
+          "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health problems.",
+          "headingAllCaps": true,
+          "headingBold": true,
+          "headingFontSizePixels": 20,
+          "bodyFontSizePixels": 16
+        }
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "GOVERNMENT_WARNING_RELATIVELY_SMALL",
+          "field": "governmentWarning",
+          "description": "The warning body is smaller than the ordinary informational text on the submitted label artwork."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-DSP-10",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "lowland-compass-application.pdf",
+      "metadata": {
+        "title": "Lowland Compass synthetic low-ABV whisky application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-KY-21910",
+        "year": "26",
+        "serialNumber": "4910",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Distilled spirits",
+        "brandName": "LOWLAND COMPASS",
+        "fancifulName": "OAK LINE",
+        "applicantNameAndAddress": "Lowland Compass Distilling LLC\n410 Barrel House Road\nLexington, KY 40508",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "LOWLAND COMPASS",
+        "fancifulName": "OAK LINE",
+        "classTypeDesignation": "WHISKY",
+        "originLine": "AMERICAN",
+        "alcoholContent": "38% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Lowland Compass Distilling LLC\n410 Barrel House Road\nLexington, KY 40508",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "ALCOHOL_CONTENT_BELOW_CLASS_MINIMUM",
+          "field": "alcoholContent",
+          "description": "Whisky must be bottled at not less than 40 percent alcohol by volume; the label states 38 percent.",
+          "labelValue": "38% ALC. BY VOL."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-WINE-11",
+      "categoryFolder": "wine",
+      "outputPdf": "gilded-vine-application.pdf",
+      "metadata": {
+        "title": "Gilded Vine synthetic high-ABV dessert wine application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "BW-CA-11911",
+        "year": "26",
+        "serialNumber": "4911",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "GILDED VINE",
+        "fancifulName": "AFTER DINNER",
+        "applicantNameAndAddress": "Gilded Vine Cellars LLC\n611 Late Harvest Lane\nSonoma, CA 95476",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "Muscat",
+        "wineAppellation": "California",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "GILDED VINE",
+        "fancifulName": "AFTER DINNER",
+        "classTypeDesignation": "DESSERT WINE",
+        "originLine": "CALIFORNIA",
+        "alcoholContent": "25% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Produced and bottled by",
+        "producerNameAndAddress": "Gilded Vine Cellars LLC\n611 Late Harvest Lane\nSonoma, CA 95476",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": true,
+        "palette": "wine",
+        "productCategory": "Wine"
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "ALCOHOL_CONTENT_ABOVE_CLASS_MAXIMUM",
+          "field": "alcoholContent",
+          "description": "Dessert wine may not exceed 24 percent alcohol by volume; the label states 25 percent.",
+          "labelValue": "25% ALC. BY VOL."
+        }
+      ]
+    },
+    {
+      "caseId": "FAIL-DSP-11",
+      "categoryFolder": "distilled-spirits",
+      "outputPdf": "crosscurrent-whisky-application.pdf",
+      "metadata": {
+        "title": "Crosscurrent synthetic multiple-failure application",
+        "subject": "Invented nonconforming test data; not a submission or approval"
+      },
+      "form": {
+        "permitNumber": "DSP-TN-21911",
+        "year": "26",
+        "serialNumber": "4912",
+        "sourceOfProduct": "Domestic",
+        "productCategory": "Wine",
+        "brandName": "CROSSCURRENT",
+        "fancifulName": "RIVER OAK",
+        "applicantNameAndAddress": "Crosscurrent Distilling LLC\n125 Stillhouse Road\nNashville, TN 37208",
+        "mailingAddress": "",
+        "formula": "",
+        "grapeVarietals": "",
+        "wineAppellation": "",
+        "applicationTypes": {
+          "labelApproval": true,
+          "exemption": false,
+          "distinctiveBottle": false,
+          "resubmission": false
+        },
+        "applicationDate": "09/28/2026",
+        "signerName": "Jordan Taylor",
+        "signatureText": "/s/ Jordan Taylor (synthetic)"
+      },
+      "label": {
+        "brandName": "CROSSCURRENT NORTH",
+        "fancifulName": "RIVER OAK",
+        "classTypeDesignation": "WHISKY",
+        "originLine": "AMERICAN",
+        "alcoholContent": "38% ALC. BY VOL.",
+        "netContents": "750 mL",
+        "producerQualifier": "Distilled and bottled by",
+        "producerNameAndAddress": "Crosscurrent Distilling LLC\n215 Stillhouse Road\nNashville, TN 37208",
+        "countryOfOrigin": null,
+        "importerNameAndAddress": null,
+        "containsSulfites": false,
+        "palette": "distilled-spirits",
+        "productCategory": "Distilled spirits",
+        "governmentWarning": {
+          "heading": "GOVERNMENT WARNING:",
+          "body": "(1) According to the Surgeon General, women should not drink alcoholic beverages during pregnancy because of the risk of birth defects. (2) Consumption of alcoholic beverages impairs your ability to drive a car or operate machinery, and may cause health concerns.",
+          "headingAllCaps": true,
+          "headingBold": false
+        }
+      },
+      "expectedOutcome": "reject",
+      "expectedFindings": [
+        {
+          "code": "ALCOHOL_CONTENT_BELOW_CLASS_MINIMUM",
+          "field": "alcoholContent",
+          "description": "Whisky must be bottled at not less than 40 percent alcohol by volume; the label states 38 percent.",
+          "labelValue": "38% ALC. BY VOL."
+        },
+        {
+          "code": "GOVERNMENT_WARNING_NOT_BOLD",
+          "field": "governmentWarning",
+          "description": "The GOVERNMENT WARNING heading is not bold."
+        },
+        {
+          "code": "GOVERNMENT_WARNING_TEXT_INCORRECT",
+          "field": "governmentWarning",
+          "description": "The warning text ends with health concerns instead of the required health problems."
+        },
+        {
+          "code": "BRAND_NAME_MISMATCH",
+          "field": "brandName",
+          "description": "The label adds NORTH to the application brand name, creating a materially different brand.",
+          "applicationValue": "CROSSCURRENT",
+          "labelValue": "CROSSCURRENT NORTH"
+        },
+        {
+          "code": "PRODUCT_CATEGORY_MISMATCH",
+          "field": "productCategory",
+          "description": "The application selects wine, but the label identifies the product as whisky.",
+          "applicationValue": "Wine",
+          "labelValue": "Distilled spirits"
+        },
+        {
+          "code": "PRODUCER_ADDRESS_MISMATCH",
+          "field": "bottlerProducerNameAndAddress",
+          "description": "The producer street number on the label differs from the application.",
+          "applicationValue": "Crosscurrent Distilling LLC\n125 Stillhouse Road\nNashville, TN 37208",
+          "labelValue": "Crosscurrent Distilling LLC\n215 Stillhouse Road\nNashville, TN 37208"
+        }
+      ]
+    }
+  ]
+}

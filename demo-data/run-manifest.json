@@ -1,0 +1,1158 @@
+{
+  "schemaVersion": "1.0",
+  "createdUtc": "2026-09-29T01:13:03.353207+00:00",
+  "parser": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\ttb-label-validator\\bin\\win-x64\\Ttb.LabelParser.exe",
+  "sourceManifests": [
+    "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\manifest.json",
+    "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\manifest.json"
+  ],
+  "summary": {
+    "cases": 60,
+    "pdfs": 60,
+    "jsonFiles": 60,
+    "labelImages": 118,
+    "geminiPreparationFiles": 240,
+    "geminiRequestsSent": 0,
+    "geminiResponsesMocked": 60,
+    "geminiResponsesTotal": 60
+  },
+  "cases": [
+    {
+      "caseId": "PASS-WINE-01",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\wine\\pass-wine-01-sunward-ridge\\sunward-ridge-application.pdf",
+      "pdf": "pass-cases/sunward-ridge-application.pdf",
+      "json": "pass-cases/sunward-ridge-application.json",
+      "labelImages": [
+        "pass-cases/sunward-ridge-application-label-01.png",
+        "pass-cases/sunward-ridge-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/sunward-ridge-application-gemini-request.json",
+        "pass-cases/sunward-ridge-application-gemini-response.schema.json",
+        "pass-cases/sunward-ridge-application-gemini-instructions.txt",
+        "pass-cases/sunward-ridge-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/sunward-ridge-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-WINE-02",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\wine\\pass-wine-02-copper-finch\\copper-finch-application.pdf",
+      "pdf": "pass-cases/copper-finch-application.pdf",
+      "json": "pass-cases/copper-finch-application.json",
+      "labelImages": [
+        "pass-cases/copper-finch-application-label-01.png",
+        "pass-cases/copper-finch-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/copper-finch-application-gemini-request.json",
+        "pass-cases/copper-finch-application-gemini-response.schema.json",
+        "pass-cases/copper-finch-application-gemini-instructions.txt",
+        "pass-cases/copper-finch-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/copper-finch-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-WINE-03",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\wine\\pass-wine-03-harbor-pine\\harbor-pine-application.pdf",
+      "pdf": "pass-cases/harbor-pine-application.pdf",
+      "json": "pass-cases/harbor-pine-application.json",
+      "labelImages": [
+        "pass-cases/harbor-pine-application-label-01.png",
+        "pass-cases/harbor-pine-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/harbor-pine-application-gemini-request.json",
+        "pass-cases/harbor-pine-application-gemini-response.schema.json",
+        "pass-cases/harbor-pine-application-gemini-instructions.txt",
+        "pass-cases/harbor-pine-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/harbor-pine-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-WINE-04",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\wine\\pass-wine-04-blue-ember\\blue-ember-application.pdf",
+      "pdf": "pass-cases/blue-ember-application.pdf",
+      "json": "pass-cases/blue-ember-application.json",
+      "labelImages": [
+        "pass-cases/blue-ember-application-label-01.png",
+        "pass-cases/blue-ember-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/blue-ember-application-gemini-request.json",
+        "pass-cases/blue-ember-application-gemini-response.schema.json",
+        "pass-cases/blue-ember-application-gemini-instructions.txt",
+        "pass-cases/blue-ember-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/blue-ember-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-WINE-05",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\wine\\pass-wine-05-morning-vale\\morning-vale-application.pdf",
+      "pdf": "pass-cases/morning-vale-application.pdf",
+      "json": "pass-cases/morning-vale-application.json",
+      "labelImages": [
+        "pass-cases/morning-vale-application-label-01.png",
+        "pass-cases/morning-vale-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/morning-vale-application-gemini-request.json",
+        "pass-cases/morning-vale-application-gemini-response.schema.json",
+        "pass-cases/morning-vale-application-gemini-instructions.txt",
+        "pass-cases/morning-vale-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/morning-vale-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-WINE-06",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\wine\\pass-wine-06-juniper-gate\\juniper-gate-application.pdf",
+      "pdf": "pass-cases/juniper-gate-application.pdf",
+      "json": "pass-cases/juniper-gate-application.json",
+      "labelImages": [
+        "pass-cases/juniper-gate-application-label-01.png",
+        "pass-cases/juniper-gate-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/juniper-gate-application-gemini-request.json",
+        "pass-cases/juniper-gate-application-gemini-response.schema.json",
+        "pass-cases/juniper-gate-application-gemini-instructions.txt",
+        "pass-cases/juniper-gate-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/juniper-gate-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-WINE-07",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\wine\\pass-wine-07-red-kestrel\\red-kestrel-application.pdf",
+      "pdf": "pass-cases/red-kestrel-application.pdf",
+      "json": "pass-cases/red-kestrel-application.json",
+      "labelImages": [
+        "pass-cases/red-kestrel-application-label-01.png",
+        "pass-cases/red-kestrel-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/red-kestrel-application-gemini-request.json",
+        "pass-cases/red-kestrel-application-gemini-response.schema.json",
+        "pass-cases/red-kestrel-application-gemini-instructions.txt",
+        "pass-cases/red-kestrel-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/red-kestrel-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-WINE-08",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\wine\\pass-wine-08-canyon-lantern\\canyon-lantern-application.pdf",
+      "pdf": "pass-cases/canyon-lantern-application.pdf",
+      "json": "pass-cases/canyon-lantern-application.json",
+      "labelImages": [
+        "pass-cases/canyon-lantern-application-label-01.png",
+        "pass-cases/canyon-lantern-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/canyon-lantern-application-gemini-request.json",
+        "pass-cases/canyon-lantern-application-gemini-response.schema.json",
+        "pass-cases/canyon-lantern-application-gemini-instructions.txt",
+        "pass-cases/canyon-lantern-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/canyon-lantern-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-WINE-09",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\wine\\pass-wine-09-silver-thread\\silver-thread-application.pdf",
+      "pdf": "pass-cases/silver-thread-application.pdf",
+      "json": "pass-cases/silver-thread-application.json",
+      "labelImages": [
+        "pass-cases/silver-thread-application-label-01.png",
+        "pass-cases/silver-thread-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/silver-thread-application-gemini-request.json",
+        "pass-cases/silver-thread-application-gemini-response.schema.json",
+        "pass-cases/silver-thread-application-gemini-instructions.txt",
+        "pass-cases/silver-thread-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/silver-thread-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-WINE-10",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\wine\\pass-wine-10-north-star-meadow\\north-star-meadow-application.pdf",
+      "pdf": "pass-cases/north-star-meadow-application.pdf",
+      "json": "pass-cases/north-star-meadow-application.json",
+      "labelImages": [
+        "pass-cases/north-star-meadow-application-label-01.png",
+        "pass-cases/north-star-meadow-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/north-star-meadow-application-gemini-request.json",
+        "pass-cases/north-star-meadow-application-gemini-response.schema.json",
+        "pass-cases/north-star-meadow-application-gemini-instructions.txt",
+        "pass-cases/north-star-meadow-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/north-star-meadow-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-DSP-01",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\distilled-spirits\\pass-dsp-01-iron-willow\\iron-willow-application.pdf",
+      "pdf": "pass-cases/iron-willow-application.pdf",
+      "json": "pass-cases/iron-willow-application.json",
+      "labelImages": [
+        "pass-cases/iron-willow-application-label-01.png",
+        "pass-cases/iron-willow-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/iron-willow-application-gemini-request.json",
+        "pass-cases/iron-willow-application-gemini-response.schema.json",
+        "pass-cases/iron-willow-application-gemini-instructions.txt",
+        "pass-cases/iron-willow-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/iron-willow-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-DSP-02",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\distilled-spirits\\pass-dsp-02-northline\\northline-application.pdf",
+      "pdf": "pass-cases/northline-application.pdf",
+      "json": "pass-cases/northline-application.json",
+      "labelImages": [
+        "pass-cases/northline-application-label-01.png",
+        "pass-cases/northline-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/northline-application-gemini-request.json",
+        "pass-cases/northline-application-gemini-response.schema.json",
+        "pass-cases/northline-application-gemini-instructions.txt",
+        "pass-cases/northline-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/northline-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-DSP-03",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\distilled-spirits\\pass-dsp-03-botanical-harbor\\botanical-harbor-application.pdf",
+      "pdf": "pass-cases/botanical-harbor-application.pdf",
+      "json": "pass-cases/botanical-harbor-application.json",
+      "labelImages": [
+        "pass-cases/botanical-harbor-application-label-01.png",
+        "pass-cases/botanical-harbor-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/botanical-harbor-application-gemini-request.json",
+        "pass-cases/botanical-harbor-application-gemini-response.schema.json",
+        "pass-cases/botanical-harbor-application-gemini-instructions.txt",
+        "pass-cases/botanical-harbor-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/botanical-harbor-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-DSP-04",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\distilled-spirits\\pass-dsp-04-copper-current\\copper-current-application.pdf",
+      "pdf": "pass-cases/copper-current-application.pdf",
+      "json": "pass-cases/copper-current-application.json",
+      "labelImages": [
+        "pass-cases/copper-current-application-label-01.png",
+        "pass-cases/copper-current-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/copper-current-application-gemini-request.json",
+        "pass-cases/copper-current-application-gemini-response.schema.json",
+        "pass-cases/copper-current-application-gemini-instructions.txt",
+        "pass-cases/copper-current-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/copper-current-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-DSP-05",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\distilled-spirits\\pass-dsp-05-granite-rail\\granite-rail-application.pdf",
+      "pdf": "pass-cases/granite-rail-application.pdf",
+      "json": "pass-cases/granite-rail-application.json",
+      "labelImages": [
+        "pass-cases/granite-rail-application-label-01.png",
+        "pass-cases/granite-rail-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/granite-rail-application-gemini-request.json",
+        "pass-cases/granite-rail-application-gemini-response.schema.json",
+        "pass-cases/granite-rail-application-gemini-instructions.txt",
+        "pass-cases/granite-rail-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/granite-rail-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-DSP-06",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\distilled-spirits\\pass-dsp-06-orchard-bell\\orchard-bell-application.pdf",
+      "pdf": "pass-cases/orchard-bell-application.pdf",
+      "json": "pass-cases/orchard-bell-application.json",
+      "labelImages": [
+        "pass-cases/orchard-bell-application-label-01.png",
+        "pass-cases/orchard-bell-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/orchard-bell-application-gemini-request.json",
+        "pass-cases/orchard-bell-application-gemini-response.schema.json",
+        "pass-cases/orchard-bell-application-gemini-instructions.txt",
+        "pass-cases/orchard-bell-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/orchard-bell-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-DSP-07",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\distilled-spirits\\pass-dsp-07-summer-peach\\summer-peach-application.pdf",
+      "pdf": "pass-cases/summer-peach-application.pdf",
+      "json": "pass-cases/summer-peach-application.json",
+      "labelImages": [
+        "pass-cases/summer-peach-application-label-01.png",
+        "pass-cases/summer-peach-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/summer-peach-application-gemini-request.json",
+        "pass-cases/summer-peach-application-gemini-response.schema.json",
+        "pass-cases/summer-peach-application-gemini-instructions.txt",
+        "pass-cases/summer-peach-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/summer-peach-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-DSP-08",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\distilled-spirits\\pass-dsp-08-timber-meridian\\timber-meridian-application.pdf",
+      "pdf": "pass-cases/timber-meridian-application.pdf",
+      "json": "pass-cases/timber-meridian-application.json",
+      "labelImages": [
+        "pass-cases/timber-meridian-application-label-01.png",
+        "pass-cases/timber-meridian-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/timber-meridian-application-gemini-request.json",
+        "pass-cases/timber-meridian-application-gemini-response.schema.json",
+        "pass-cases/timber-meridian-application-gemini-instructions.txt",
+        "pass-cases/timber-meridian-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/timber-meridian-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-DSP-09",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\distilled-spirits\\pass-dsp-09-night-ledger\\night-ledger-application.pdf",
+      "pdf": "pass-cases/night-ledger-application.pdf",
+      "json": "pass-cases/night-ledger-application.json",
+      "labelImages": [
+        "pass-cases/night-ledger-application-label-01.png",
+        "pass-cases/night-ledger-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/night-ledger-application-gemini-request.json",
+        "pass-cases/night-ledger-application-gemini-response.schema.json",
+        "pass-cases/night-ledger-application-gemini-instructions.txt",
+        "pass-cases/night-ledger-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/night-ledger-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-DSP-10",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\distilled-spirits\\pass-dsp-10-citrus-standard\\citrus-standard-application.pdf",
+      "pdf": "pass-cases/citrus-standard-application.pdf",
+      "json": "pass-cases/citrus-standard-application.json",
+      "labelImages": [
+        "pass-cases/citrus-standard-application-label-01.png",
+        "pass-cases/citrus-standard-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/citrus-standard-application-gemini-request.json",
+        "pass-cases/citrus-standard-application-gemini-response.schema.json",
+        "pass-cases/citrus-standard-application-gemini-instructions.txt",
+        "pass-cases/citrus-standard-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/citrus-standard-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-MALT-01",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\malt-beverages\\pass-malt-01-trail-signal\\trail-signal-application.pdf",
+      "pdf": "pass-cases/trail-signal-application.pdf",
+      "json": "pass-cases/trail-signal-application.json",
+      "labelImages": [
+        "pass-cases/trail-signal-application-label-01.png",
+        "pass-cases/trail-signal-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/trail-signal-application-gemini-request.json",
+        "pass-cases/trail-signal-application-gemini-response.schema.json",
+        "pass-cases/trail-signal-application-gemini-instructions.txt",
+        "pass-cases/trail-signal-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/trail-signal-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-MALT-02",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\malt-beverages\\pass-malt-02-green-compass\\green-compass-application.pdf",
+      "pdf": "pass-cases/green-compass-application.pdf",
+      "json": "pass-cases/green-compass-application.json",
+      "labelImages": [
+        "pass-cases/green-compass-application-label-01.png",
+        "pass-cases/green-compass-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/green-compass-application-gemini-request.json",
+        "pass-cases/green-compass-application-gemini-response.schema.json",
+        "pass-cases/green-compass-application-gemini-instructions.txt",
+        "pass-cases/green-compass-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/green-compass-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-MALT-03",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\malt-beverages\\pass-malt-03-foundry-light\\foundry-light-application.pdf",
+      "pdf": "pass-cases/foundry-light-application.pdf",
+      "json": "pass-cases/foundry-light-application.json",
+      "labelImages": [
+        "pass-cases/foundry-light-application-label-01.png",
+        "pass-cases/foundry-light-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/foundry-light-application-gemini-request.json",
+        "pass-cases/foundry-light-application-gemini-response.schema.json",
+        "pass-cases/foundry-light-application-gemini-instructions.txt",
+        "pass-cases/foundry-light-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/foundry-light-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-MALT-04",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\malt-beverages\\pass-malt-04-night-bridge\\night-bridge-application.pdf",
+      "pdf": "pass-cases/night-bridge-application.pdf",
+      "json": "pass-cases/night-bridge-application.json",
+      "labelImages": [
+        "pass-cases/night-bridge-application-label-01.png",
+        "pass-cases/night-bridge-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/night-bridge-application-gemini-request.json",
+        "pass-cases/night-bridge-application-gemini-response.schema.json",
+        "pass-cases/night-bridge-application-gemini-instructions.txt",
+        "pass-cases/night-bridge-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/night-bridge-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-MALT-05",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\malt-beverages\\pass-malt-05-oak-ember\\oak-ember-application.pdf",
+      "pdf": "pass-cases/oak-ember-application.pdf",
+      "json": "pass-cases/oak-ember-application.json",
+      "labelImages": [
+        "pass-cases/oak-ember-application-label-01.png",
+        "pass-cases/oak-ember-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/oak-ember-application-gemini-request.json",
+        "pass-cases/oak-ember-application-gemini-response.schema.json",
+        "pass-cases/oak-ember-application-gemini-instructions.txt",
+        "pass-cases/oak-ember-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/oak-ember-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-MALT-06",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\malt-beverages\\pass-malt-06-golden-field\\golden-field-application.pdf",
+      "pdf": "pass-cases/golden-field-application.pdf",
+      "json": "pass-cases/golden-field-application.json",
+      "labelImages": [
+        "pass-cases/golden-field-application-label-01.png",
+        "pass-cases/golden-field-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/golden-field-application-gemini-request.json",
+        "pass-cases/golden-field-application-gemini-response.schema.json",
+        "pass-cases/golden-field-application-gemini-instructions.txt",
+        "pass-cases/golden-field-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/golden-field-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-MALT-07",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\malt-beverages\\pass-malt-07-clear-bell\\clear-bell-application.pdf",
+      "pdf": "pass-cases/clear-bell-application.pdf",
+      "json": "pass-cases/clear-bell-application.json",
+      "labelImages": [
+        "pass-cases/clear-bell-application-label-01.png",
+        "pass-cases/clear-bell-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/clear-bell-application-gemini-request.json",
+        "pass-cases/clear-bell-application-gemini-response.schema.json",
+        "pass-cases/clear-bell-application-gemini-instructions.txt",
+        "pass-cases/clear-bell-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/clear-bell-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-MALT-08",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\malt-beverages\\pass-malt-08-copper-grove\\copper-grove-application.pdf",
+      "pdf": "pass-cases/copper-grove-application.pdf",
+      "json": "pass-cases/copper-grove-application.json",
+      "labelImages": [
+        "pass-cases/copper-grove-application-label-01.png",
+        "pass-cases/copper-grove-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/copper-grove-application-gemini-request.json",
+        "pass-cases/copper-grove-application-gemini-response.schema.json",
+        "pass-cases/copper-grove-application-gemini-instructions.txt",
+        "pass-cases/copper-grove-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/copper-grove-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-MALT-09",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\malt-beverages\\pass-malt-09-river-clock\\river-clock-application.pdf",
+      "pdf": "pass-cases/river-clock-application.pdf",
+      "json": "pass-cases/river-clock-application.json",
+      "labelImages": [
+        "pass-cases/river-clock-application-label-01.png",
+        "pass-cases/river-clock-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/river-clock-application-gemini-request.json",
+        "pass-cases/river-clock-application-gemini-response.schema.json",
+        "pass-cases/river-clock-application-gemini-instructions.txt",
+        "pass-cases/river-clock-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/river-clock-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "PASS-MALT-10",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\pass-cases\\malt-beverages\\pass-malt-10-hearth-hollow\\hearth-hollow-application.pdf",
+      "pdf": "pass-cases/hearth-hollow-application.pdf",
+      "json": "pass-cases/hearth-hollow-application.json",
+      "labelImages": [
+        "pass-cases/hearth-hollow-application-label-01.png",
+        "pass-cases/hearth-hollow-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "pass-cases/hearth-hollow-application-gemini-request.json",
+        "pass-cases/hearth-hollow-application-gemini-response.schema.json",
+        "pass-cases/hearth-hollow-application-gemini-instructions.txt",
+        "pass-cases/hearth-hollow-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "pass-cases/hearth-hollow-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-WINE-01",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\wine\\fail-wine-01-sunward-ridge\\sunward-ridge-application.pdf",
+      "pdf": "fail-cases/sunward-ridge-application.pdf",
+      "json": "fail-cases/sunward-ridge-application.json",
+      "labelImages": [
+        "fail-cases/sunward-ridge-application-label-01.png",
+        "fail-cases/sunward-ridge-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/sunward-ridge-application-gemini-request.json",
+        "fail-cases/sunward-ridge-application-gemini-response.schema.json",
+        "fail-cases/sunward-ridge-application-gemini-instructions.txt",
+        "fail-cases/sunward-ridge-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/sunward-ridge-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-WINE-02",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\wine\\fail-wine-02-copper-finch\\copper-finch-application.pdf",
+      "pdf": "fail-cases/copper-finch-application.pdf",
+      "json": "fail-cases/copper-finch-application.json",
+      "labelImages": [
+        "fail-cases/copper-finch-application-label-01.png",
+        "fail-cases/copper-finch-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/copper-finch-application-gemini-request.json",
+        "fail-cases/copper-finch-application-gemini-response.schema.json",
+        "fail-cases/copper-finch-application-gemini-instructions.txt",
+        "fail-cases/copper-finch-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/copper-finch-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-WINE-03",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\wine\\fail-wine-03-harbor-pine\\harbor-pine-application.pdf",
+      "pdf": "fail-cases/harbor-pine-application.pdf",
+      "json": "fail-cases/harbor-pine-application.json",
+      "labelImages": [
+        "fail-cases/harbor-pine-application-label-01.png",
+        "fail-cases/harbor-pine-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/harbor-pine-application-gemini-request.json",
+        "fail-cases/harbor-pine-application-gemini-response.schema.json",
+        "fail-cases/harbor-pine-application-gemini-instructions.txt",
+        "fail-cases/harbor-pine-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/harbor-pine-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-WINE-04",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\wine\\fail-wine-04-blue-ember\\blue-ember-application.pdf",
+      "pdf": "fail-cases/blue-ember-application.pdf",
+      "json": "fail-cases/blue-ember-application.json",
+      "labelImages": [
+        "fail-cases/blue-ember-application-label-01.png",
+        "fail-cases/blue-ember-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/blue-ember-application-gemini-request.json",
+        "fail-cases/blue-ember-application-gemini-response.schema.json",
+        "fail-cases/blue-ember-application-gemini-instructions.txt",
+        "fail-cases/blue-ember-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/blue-ember-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-DSP-01",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\distilled-spirits\\fail-dsp-01-iron-willow\\iron-willow-application.pdf",
+      "pdf": "fail-cases/iron-willow-application.pdf",
+      "json": "fail-cases/iron-willow-application.json",
+      "labelImages": [
+        "fail-cases/iron-willow-application-label-01.png",
+        "fail-cases/iron-willow-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/iron-willow-application-gemini-request.json",
+        "fail-cases/iron-willow-application-gemini-response.schema.json",
+        "fail-cases/iron-willow-application-gemini-instructions.txt",
+        "fail-cases/iron-willow-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/iron-willow-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-DSP-02",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\distilled-spirits\\fail-dsp-02-northline\\northline-application.pdf",
+      "pdf": "fail-cases/northline-application.pdf",
+      "json": "fail-cases/northline-application.json",
+      "labelImages": [
+        "fail-cases/northline-application-label-01.png",
+        "fail-cases/northline-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/northline-application-gemini-request.json",
+        "fail-cases/northline-application-gemini-response.schema.json",
+        "fail-cases/northline-application-gemini-instructions.txt",
+        "fail-cases/northline-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/northline-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-DSP-03",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\distilled-spirits\\fail-dsp-03-botanical-harbor\\botanical-harbor-application.pdf",
+      "pdf": "fail-cases/botanical-harbor-application.pdf",
+      "json": "fail-cases/botanical-harbor-application.json",
+      "labelImages": [
+        "fail-cases/botanical-harbor-application-label-01.png",
+        "fail-cases/botanical-harbor-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/botanical-harbor-application-gemini-request.json",
+        "fail-cases/botanical-harbor-application-gemini-response.schema.json",
+        "fail-cases/botanical-harbor-application-gemini-instructions.txt",
+        "fail-cases/botanical-harbor-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/botanical-harbor-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-DSP-04",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\distilled-spirits\\fail-dsp-04-copper-current\\copper-current-application.pdf",
+      "pdf": "fail-cases/copper-current-application.pdf",
+      "json": "fail-cases/copper-current-application.json",
+      "labelImages": [
+        "fail-cases/copper-current-application-label-01.png",
+        "fail-cases/copper-current-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/copper-current-application-gemini-request.json",
+        "fail-cases/copper-current-application-gemini-response.schema.json",
+        "fail-cases/copper-current-application-gemini-instructions.txt",
+        "fail-cases/copper-current-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/copper-current-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-MALT-01",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\malt-beverages\\fail-malt-01-trail-signal\\trail-signal-application.pdf",
+      "pdf": "fail-cases/trail-signal-application.pdf",
+      "json": "fail-cases/trail-signal-application.json",
+      "labelImages": [
+        "fail-cases/trail-signal-application-label-01.png",
+        "fail-cases/trail-signal-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/trail-signal-application-gemini-request.json",
+        "fail-cases/trail-signal-application-gemini-response.schema.json",
+        "fail-cases/trail-signal-application-gemini-instructions.txt",
+        "fail-cases/trail-signal-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/trail-signal-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-MALT-02",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\malt-beverages\\fail-malt-02-green-compass\\green-compass-application.pdf",
+      "pdf": "fail-cases/green-compass-application.pdf",
+      "json": "fail-cases/green-compass-application.json",
+      "labelImages": [
+        "fail-cases/green-compass-application-label-01.png",
+        "fail-cases/green-compass-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/green-compass-application-gemini-request.json",
+        "fail-cases/green-compass-application-gemini-response.schema.json",
+        "fail-cases/green-compass-application-gemini-instructions.txt",
+        "fail-cases/green-compass-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/green-compass-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-MALT-03",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\malt-beverages\\fail-malt-03-foundry-light\\foundry-light-application.pdf",
+      "pdf": "fail-cases/foundry-light-application.pdf",
+      "json": "fail-cases/foundry-light-application.json",
+      "labelImages": [
+        "fail-cases/foundry-light-application-label-01.png",
+        "fail-cases/foundry-light-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/foundry-light-application-gemini-request.json",
+        "fail-cases/foundry-light-application-gemini-response.schema.json",
+        "fail-cases/foundry-light-application-gemini-instructions.txt",
+        "fail-cases/foundry-light-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/foundry-light-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-MALT-04",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\malt-beverages\\fail-malt-04-night-bridge\\night-bridge-application.pdf",
+      "pdf": "fail-cases/night-bridge-application.pdf",
+      "json": "fail-cases/night-bridge-application.json",
+      "labelImages": [
+        "fail-cases/night-bridge-application-label-01.png",
+        "fail-cases/night-bridge-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/night-bridge-application-gemini-request.json",
+        "fail-cases/night-bridge-application-gemini-response.schema.json",
+        "fail-cases/night-bridge-application-gemini-instructions.txt",
+        "fail-cases/night-bridge-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/night-bridge-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-WINE-05",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\wine\\fail-wine-05-morning-vale\\morning-vale-application.pdf",
+      "pdf": "fail-cases/morning-vale-application.pdf",
+      "json": "fail-cases/morning-vale-application.json",
+      "labelImages": [
+        "fail-cases/morning-vale-application-label-01.png",
+        "fail-cases/morning-vale-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/morning-vale-application-gemini-request.json",
+        "fail-cases/morning-vale-application-gemini-response.schema.json",
+        "fail-cases/morning-vale-application-gemini-instructions.txt",
+        "fail-cases/morning-vale-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/morning-vale-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-DSP-05",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\distilled-spirits\\fail-dsp-05-granite-rail\\granite-rail-application.pdf",
+      "pdf": "fail-cases/granite-rail-application.pdf",
+      "json": "fail-cases/granite-rail-application.json",
+      "labelImages": [
+        "fail-cases/granite-rail-application-label-01.png",
+        "fail-cases/granite-rail-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/granite-rail-application-gemini-request.json",
+        "fail-cases/granite-rail-application-gemini-response.schema.json",
+        "fail-cases/granite-rail-application-gemini-instructions.txt",
+        "fail-cases/granite-rail-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/granite-rail-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-MALT-05",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\malt-beverages\\fail-malt-05-oak-ember\\oak-ember-application.pdf",
+      "pdf": "fail-cases/oak-ember-application.pdf",
+      "json": "fail-cases/oak-ember-application.json",
+      "labelImages": [
+        "fail-cases/oak-ember-application-label-01.png",
+        "fail-cases/oak-ember-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/oak-ember-application-gemini-request.json",
+        "fail-cases/oak-ember-application-gemini-response.schema.json",
+        "fail-cases/oak-ember-application-gemini-instructions.txt",
+        "fail-cases/oak-ember-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/oak-ember-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-DSP-06",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\distilled-spirits\\fail-dsp-06-orchard-bell\\orchard-bell-application.pdf",
+      "pdf": "fail-cases/orchard-bell-application.pdf",
+      "json": "fail-cases/orchard-bell-application.json",
+      "labelImages": [
+        "fail-cases/orchard-bell-application-label-01.png",
+        "fail-cases/orchard-bell-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/orchard-bell-application-gemini-request.json",
+        "fail-cases/orchard-bell-application-gemini-response.schema.json",
+        "fail-cases/orchard-bell-application-gemini-instructions.txt",
+        "fail-cases/orchard-bell-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/orchard-bell-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-WINE-06",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\wine\\fail-wine-06-juniper-gate\\juniper-gate-application.pdf",
+      "pdf": "fail-cases/juniper-gate-application.pdf",
+      "json": "fail-cases/juniper-gate-application.json",
+      "labelImages": [
+        "fail-cases/juniper-gate-application-label-01.png",
+        "fail-cases/juniper-gate-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/juniper-gate-application-gemini-request.json",
+        "fail-cases/juniper-gate-application-gemini-response.schema.json",
+        "fail-cases/juniper-gate-application-gemini-instructions.txt",
+        "fail-cases/juniper-gate-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/juniper-gate-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-MALT-06",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\malt-beverages\\fail-malt-06-golden-field\\golden-field-application.pdf",
+      "pdf": "fail-cases/golden-field-application.pdf",
+      "json": "fail-cases/golden-field-application.json",
+      "labelImages": [
+        "fail-cases/golden-field-application-label-01.png",
+        "fail-cases/golden-field-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/golden-field-application-gemini-request.json",
+        "fail-cases/golden-field-application-gemini-response.schema.json",
+        "fail-cases/golden-field-application-gemini-instructions.txt",
+        "fail-cases/golden-field-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/golden-field-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-DSP-07",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\distilled-spirits\\fail-dsp-07-summer-peach\\summer-peach-application.pdf",
+      "pdf": "fail-cases/summer-peach-application.pdf",
+      "json": "fail-cases/summer-peach-application.json",
+      "labelImages": [
+        "fail-cases/summer-peach-application-label-01.png",
+        "fail-cases/summer-peach-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/summer-peach-application-gemini-request.json",
+        "fail-cases/summer-peach-application-gemini-response.schema.json",
+        "fail-cases/summer-peach-application-gemini-instructions.txt",
+        "fail-cases/summer-peach-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/summer-peach-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-WINE-07",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\wine\\fail-wine-07-red-kestrel\\red-kestrel-application.pdf",
+      "pdf": "fail-cases/red-kestrel-application.pdf",
+      "json": "fail-cases/red-kestrel-application.json",
+      "labelImages": [
+        "fail-cases/red-kestrel-application-label-01.png",
+        "fail-cases/red-kestrel-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/red-kestrel-application-gemini-request.json",
+        "fail-cases/red-kestrel-application-gemini-response.schema.json",
+        "fail-cases/red-kestrel-application-gemini-instructions.txt",
+        "fail-cases/red-kestrel-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/red-kestrel-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-MALT-07",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\malt-beverages\\fail-malt-07-clear-bell\\clear-bell-application.pdf",
+      "pdf": "fail-cases/clear-bell-application.pdf",
+      "json": "fail-cases/clear-bell-application.json",
+      "labelImages": [
+        "fail-cases/clear-bell-application-label-01.png",
+        "fail-cases/clear-bell-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/clear-bell-application-gemini-request.json",
+        "fail-cases/clear-bell-application-gemini-response.schema.json",
+        "fail-cases/clear-bell-application-gemini-instructions.txt",
+        "fail-cases/clear-bell-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/clear-bell-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-DSP-08",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\distilled-spirits\\fail-dsp-08-timber-meridian\\timber-meridian-application.pdf",
+      "pdf": "fail-cases/timber-meridian-application.pdf",
+      "json": "fail-cases/timber-meridian-application.json",
+      "labelImages": [
+        "fail-cases/timber-meridian-application-label-01.png",
+        "fail-cases/timber-meridian-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/timber-meridian-application-gemini-request.json",
+        "fail-cases/timber-meridian-application-gemini-response.schema.json",
+        "fail-cases/timber-meridian-application-gemini-instructions.txt",
+        "fail-cases/timber-meridian-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/timber-meridian-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-WINE-08",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\wine\\fail-wine-08-silver-thread\\silver-thread-application.pdf",
+      "pdf": "fail-cases/silver-thread-application.pdf",
+      "json": "fail-cases/silver-thread-application.json",
+      "labelImages": [
+        "fail-cases/silver-thread-application-label-01.png",
+        "fail-cases/silver-thread-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/silver-thread-application-gemini-request.json",
+        "fail-cases/silver-thread-application-gemini-response.schema.json",
+        "fail-cases/silver-thread-application-gemini-instructions.txt",
+        "fail-cases/silver-thread-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/silver-thread-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-DSP-09",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\distilled-spirits\\fail-dsp-09-night-ledger\\night-ledger-application.pdf",
+      "pdf": "fail-cases/night-ledger-application.pdf",
+      "json": "fail-cases/night-ledger-application.json",
+      "labelImages": [
+        "fail-cases/night-ledger-application-label-01.png",
+        "fail-cases/night-ledger-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/night-ledger-application-gemini-request.json",
+        "fail-cases/night-ledger-application-gemini-response.schema.json",
+        "fail-cases/night-ledger-application-gemini-instructions.txt",
+        "fail-cases/night-ledger-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/night-ledger-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-MALT-08",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\malt-beverages\\fail-malt-08-copper-grove\\copper-grove-application.pdf",
+      "pdf": "fail-cases/copper-grove-application.pdf",
+      "json": "fail-cases/copper-grove-application.json",
+      "labelImages": [],
+      "geminiFiles": [
+        "fail-cases/copper-grove-application-gemini-request.json",
+        "fail-cases/copper-grove-application-gemini-response.schema.json",
+        "fail-cases/copper-grove-application-gemini-instructions.txt",
+        "fail-cases/copper-grove-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/copper-grove-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-WINE-09",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\wine\\fail-wine-09-fine-print-estate\\fine-print-estate-application.pdf",
+      "pdf": "fail-cases/fine-print-estate-application.pdf",
+      "json": "fail-cases/fine-print-estate-application.json",
+      "labelImages": [
+        "fail-cases/fine-print-estate-application-label-01.png",
+        "fail-cases/fine-print-estate-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/fine-print-estate-application-gemini-request.json",
+        "fail-cases/fine-print-estate-application-gemini-response.schema.json",
+        "fail-cases/fine-print-estate-application-gemini-instructions.txt",
+        "fail-cases/fine-print-estate-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/fine-print-estate-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-WINE-10",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\wine\\fail-wine-10-quiet-serif\\quiet-serif-application.pdf",
+      "pdf": "fail-cases/quiet-serif-application.pdf",
+      "json": "fail-cases/quiet-serif-application.json",
+      "labelImages": [
+        "fail-cases/quiet-serif-application-label-01.png",
+        "fail-cases/quiet-serif-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/quiet-serif-application-gemini-request.json",
+        "fail-cases/quiet-serif-application-gemini-response.schema.json",
+        "fail-cases/quiet-serif-application-gemini-instructions.txt",
+        "fail-cases/quiet-serif-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/quiet-serif-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-DSP-10",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\distilled-spirits\\fail-dsp-10-lowland-compass\\lowland-compass-application.pdf",
+      "pdf": "fail-cases/lowland-compass-application.pdf",
+      "json": "fail-cases/lowland-compass-application.json",
+      "labelImages": [
+        "fail-cases/lowland-compass-application-label-01.png",
+        "fail-cases/lowland-compass-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/lowland-compass-application-gemini-request.json",
+        "fail-cases/lowland-compass-application-gemini-response.schema.json",
+        "fail-cases/lowland-compass-application-gemini-instructions.txt",
+        "fail-cases/lowland-compass-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/lowland-compass-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-WINE-11",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\wine\\fail-wine-11-gilded-vine\\gilded-vine-application.pdf",
+      "pdf": "fail-cases/gilded-vine-application.pdf",
+      "json": "fail-cases/gilded-vine-application.json",
+      "labelImages": [
+        "fail-cases/gilded-vine-application-label-01.png",
+        "fail-cases/gilded-vine-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/gilded-vine-application-gemini-request.json",
+        "fail-cases/gilded-vine-application-gemini-response.schema.json",
+        "fail-cases/gilded-vine-application-gemini-instructions.txt",
+        "fail-cases/gilded-vine-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/gilded-vine-application-gemini-response.json",
+      "geminiSynthetic": true
+    },
+    {
+      "caseId": "FAIL-DSP-11",
+      "sourcePdf": "C:\\Users\\X\\Documents\\Codex\\2026-09-28\\files-pasted-by-the-user-ttb\\outputs\\mock-corpus\\fail-cases\\distilled-spirits\\fail-dsp-11-crosscurrent\\crosscurrent-whisky-application.pdf",
+      "pdf": "fail-cases/crosscurrent-whisky-application.pdf",
+      "json": "fail-cases/crosscurrent-whisky-application.json",
+      "labelImages": [
+        "fail-cases/crosscurrent-whisky-application-label-01.png",
+        "fail-cases/crosscurrent-whisky-application-label-02.png"
+      ],
+      "geminiFiles": [
+        "fail-cases/crosscurrent-whisky-application-gemini-request.json",
+        "fail-cases/crosscurrent-whisky-application-gemini-response.schema.json",
+        "fail-cases/crosscurrent-whisky-application-gemini-instructions.txt",
+        "fail-cases/crosscurrent-whisky-application-gemini-request-manifest.json"
+      ],
+      "geminiStatus": "mocked",
+      "geminiResponse": "fail-cases/crosscurrent-whisky-application-gemini-response.json",
+      "geminiSynthetic": true
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mock TTB corpus source data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "outputDirectory", "governmentWarning", "cases"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "type": "string" },
+    "description": { "type": "string" },
+    "outputDirectory": { "type": "string", "minLength": 1 },
+    "governmentWarning": { "$ref": "#/$defs/governmentWarning" },
+    "cases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "caseId", "categoryFolder", "outputPdf", "metadata", "expectedOutcome",
+          "expectedFindings", "form", "label"
+        ],
+        "properties": {
+          "caseId": { "type": "string", "minLength": 1 },
+          "categoryFolder": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "outputPdf": { "type": "string", "pattern": "\\.[pP][dD][fF]$" },
+          "metadata": { "$ref": "../mock-application/fixture.schema.json#/properties/metadata" },
+          "expectedOutcome": { "enum": ["pass", "manual_review", "reject"] },
+          "expectedFindings": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/finding" }
+          },
+          "form": { "$ref": "../mock-application/fixture.schema.json#/properties/form" },
+          "label": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "brandName", "fancifulName", "classTypeDesignation", "originLine",
+              "alcoholContent", "netContents", "producerQualifier", "producerNameAndAddress",
+              "countryOfOrigin", "importerNameAndAddress", "containsSulfites",
+              "productCategory", "palette"
+            ],
+            "properties": {
+              "brandName": { "type": "string" },
+              "fancifulName": { "type": "string" },
+              "classTypeDesignation": { "type": "string" },
+              "originLine": { "type": "string" },
+              "alcoholContent": { "type": "string", "minLength": 1 },
+              "netContents": { "type": "string" },
+              "producerQualifier": { "type": "string" },
+              "producerNameAndAddress": { "type": "string" },
+              "countryOfOrigin": { "type": ["string", "null"] },
+              "importerNameAndAddress": { "type": ["string", "null"] },
+              "containsSulfites": { "type": "boolean" },
+              "present": { "type": "boolean" },
+              "productCategory": { "enum": ["Wine", "Distilled spirits", "Malt beverages"] },
+              "governmentWarning": {
+                "oneOf": [
+                  { "$ref": "#/$defs/governmentWarning" },
+                  { "type": "null" }
+                ]
+              },
+              "palette": { "enum": ["wine", "distilled-spirits", "malt-beverages"] }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "governmentWarning": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["heading", "body", "headingAllCaps", "headingBold"],
+      "properties": {
+        "heading": { "type": "string", "minLength": 1 },
+        "body": { "type": "string", "minLength": 1 },
+        "headingAllCaps": { "type": "boolean" },
+        "headingBold": { "type": "boolean" },
+        "headingFontSizePixels": { "type": "integer", "minimum": 8, "maximum": 100 },
+        "bodyFontSizePixels": { "type": "integer", "minimum": 8, "maximum": 100 }
+      }
+    },
+    "finding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "field", "description"],
+      "properties": {
+        "code": { "type": "string", "minLength": 1 },
+        "field": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "applicationValue": {},
+        "labelValue": {}
+      }
+    }
+  }
+}

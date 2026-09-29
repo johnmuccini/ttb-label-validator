@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TTB Label Validator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="eyebrow">PROOF OF CONCEPT</div>
+    <h1>TTB Label Validator</h1>
+    <p>Compare application data with submitted label artwork and review every finding in one place.</p>
+  </header>
+
+  <main>
+    <section class="panel" aria-labelledby="connection-title">
+      <div class="step">1</div>
+      <div class="section-body">
+        <h2 id="connection-title">Connect to Gemini</h2>
+        <p class="explanation">Live label reading requires a free Gemini API key for this prototype. Production users would receive centrally managed access and would not handle API keys.</p>
+        <div class="key-row">
+          <label class="sr-only" for="api-key">Gemini API key</label>
+          <div class="password-field">
+            <input id="api-key" type="password" autocomplete="off" spellcheck="false" placeholder="Paste Gemini API key">
+            <button id="toggle-key" class="reveal-key" type="button" aria-label="Show API key" aria-pressed="false" title="Show API key">
+              <span aria-hidden="true">&#128065;</span>
+            </button>
+          </div>
+          <button id="test-key" class="primary">Test API key and connection</button>
+        </div>
+        <div class="actions secondary-actions">
+          <a class="button secondary" href="https://ai.google.dev/gemini-api/docs/api-key" target="_blank" rel="noopener noreferrer">Instructions: Get a free Gemini API key</a>
+        </div>
+        <p id="key-status" class="status-text" role="status">A key is not stored in files, logs, results, or browser storage. It is kept in server memory until this application closes.</p>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="files-title">
+      <div class="step">2</div>
+      <div class="section-body">
+        <h2 id="files-title">Choose applications</h2>
+        <p class="explanation">Select up to 300 current electronic Form 5100.31 PDF applications. Each file receives an independent result.</p>
+        <div class="actions">
+          <input id="file-input" type="file" accept="application/pdf,.pdf" multiple hidden>
+          <button id="choose-files" class="primary" disabled>Choose application files</button>
+          <button id="run-demo" class="secondary">Run bundled demonstration using synthetic responses</button>
+        </div>
+        <p id="selection" class="status-text">Live file processing becomes available after the API key and connection are validated.</p>
+        <div class="synthetic-note"><strong>Synthetic demonstration:</strong> uses the bundled test PDFs and clearly identified fixture responses. It does not call Gemini and cannot process arbitrary files.</div>
+      </div>
+    </section>
+
+    <section id="progress-panel" class="panel hidden" aria-labelledby="progress-title">
+      <div class="step">3</div>
+      <div class="section-body">
+        <div class="title-row">
+          <div><h2 id="progress-title">Results</h2><p id="progress-copy" class="explanation"></p></div>
+          <div class="actions compact">
+            <button id="cancel" class="danger">Cancel remaining files</button>
+            <button id="download" class="secondary" disabled>Download results JSON</button>
+          </div>
+        </div>
+        <div class="progress-track"><div id="progress-bar"></div></div>
+        <div id="summary" class="summary" aria-live="polite"></div>
+        <div id="results" class="results"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span id="versions">Loading version information…</span><span>Local URL · 127.0.0.1</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
