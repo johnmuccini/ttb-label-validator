@@ -1,8 +1,0 @@
-TTB Label Validator
-
-1. Extract the entire ZIP file before running anything.
-2. Double-click START HERE.cmd in the extracted folder.
-3. Keep the command window open.
-4. Open http://127.0.0.1:5080 in a browser.
-
-Opening wwwroot\index.html directly will not start the local controller.
